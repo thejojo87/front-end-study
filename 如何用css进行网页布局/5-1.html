@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>混合布局</title>
+    <style type="text/css">
+    body{
+        margin:0;
+        padding:0;
+    }
+    .main{
+        width: 800px;
+        height: 500px;
+        background: #cccccc;
+        /*0代表上下 auto代表左右 */
+        margin:0 auto;
+    }
+    .top{
+        height: 100px;
+        background: blue;
+    }
+    .foot{
+        height: 100px;
+        width: 800px;
+        background: red;
+        margin:0 auto;
+    }
+    .left{
+        width:200px;
+        height: 500px;
+        background: yellow;
+        float: left;
+    }
+    .right{
+        width: 600px;
+        height: 500px;
+        background: green;
+        float: right;
+    }
+    .sub_l{width: 400px;height: 500px; background: gray; float: left;}
+    .sub_r{width: 200px;height: 500px; background:  salmon; float: right;}
+    .head{ width: 800px; height: 100px; background: purple;margin: 0 auto;}
+    </style>
+</head>
+<body>
+
+
+<div class="top">
+    <div class="head"></div>
+</div>
+<div class="main">
+    <div class="left"></div>
+    <div class="right">
+        <div class="sub_l"></div>
+        <div class="sub_r"></div>
+
+    </div>
+</div>
+<div class="foot"></div>
+
+</body>
+</html>

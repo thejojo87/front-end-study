@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame Test</title>
+    <script language="JavaScript" type="text/javascript">
+        function FillFrame(framename) {
+            theframe=parent[framename];
+            theframe.document.open();
+            theframe.document.write("<h1>Javascript Output</h1>");
+            theframe.document.write("<p>This text is in the");
+            theframe.document.write(framename + "frame.</p>");
+        }
+    </script>
+</head>
+<body>
+
+<h1>Frame Test</h1>
+<form name="form1">
+    <input type="button" value="Top right" onclick="FillFrame('top_right');">
+    <input type="button" value="Top left" onclick="FillFrame('top_left');">
+    <input type="button" value="Buttom right" onclick="FillFrame('buttom_right');">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10章的实验版本</title>
+</head>
+<body>
+
+<h1>尝试关闭一个窗口</h1>
+
+<hr>
+<form NAME="winform">
+    <input type="button" value="Open new window"
+    onclick="NewWin=window.open('','NewWin',
+    'toolbar=no,status=no,width=200,height=100');">
+
+    <p><input type="button" value="Close the window"
+    onclick="NewWin.close();"></p>
+
+    <p><input type="button" value="Close the mainwindow"
+              onclick="window.close();"></p>
+
+</form>
+
+
+
+</body>
+</html>
