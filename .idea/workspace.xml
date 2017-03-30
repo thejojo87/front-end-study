@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/HTML+CSS.md" line="1142" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5992959-82a2-45b1-80c1-4b561c32b79a" name="Default" comment="" />
+    <list default="true" id="e5992959-82a2-45b1-80c1-4b561c32b79a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/小薇学院-12个课/task2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/小薇学院-12个课/任务二：零基础HTML及CSS编码（一）.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -28,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/如何用css进行网页布局.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="433">
+              <first_editor relative-caret-position="2730">
                 <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
                 <folding />
               </first_editor>
@@ -37,22 +41,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/2-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/5-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1409">
-              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-              <folding />
+      <file leaf-file-name="git.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/git.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="39">
+                <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -61,8 +58,8 @@
         <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/任务一：零基础HTML编码.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="499">
-                <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <first_editor relative-caret-position="265">
+                <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -70,11 +67,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="5-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/5-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="任务一：零基础HTML编码作业.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/任务一：零基础HTML编码作业.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <state relative-caret-position="239">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +91,8 @@
         <entry file="file://$PROJECT_DIR$/HTML+CSS.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2496">
-                <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <first_editor relative-caret-position="604">
+                <caret line="306" column="16" lean-forward="false" selection-start-line="306" selection-start-column="11" selection-end-line="306" selection-end-column="16" />
                 <folding>
                   <marker date="1489658146711" expanded="true" signature="311:412" ph="..." />
                   <marker date="1489658146711" expanded="true" signature="581:741" ph="..." />
@@ -152,35 +159,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="git.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/git.md">
+      <file leaf-file-name="task2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="任务二：零基础HTML及CSS编码（一）.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/任务二：零基础HTML及CSS编码（一）.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-819">
-                <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <first_editor relative-caret-position="589">
+                <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/4-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/3-1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -199,6 +196,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>alert</find>
+      <find>字体</find>
+      <find>ratio</find>
+      <find>radio</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -246,7 +246,10 @@
         <option value="$PROJECT_DIR$/如何用css进行网页布局.md" />
         <option value="$PROJECT_DIR$/git.md" />
         <option value="$PROJECT_DIR$/百度前端/小薇学院-12个课/任务一：零基础HTML编码.md" />
+        <option value="$PROJECT_DIR$/百度前端/小薇学院-12个课/task1.html" />
+        <option value="$PROJECT_DIR$/百度前端/小薇学院-12个课/任务二：零基础HTML及CSS编码（一）.md" />
         <option value="$PROJECT_DIR$/百度前端/小薇学院-12个课/任务一：零基础HTML编码作业.html" />
+        <option value="$PROJECT_DIR$/百度前端/小薇学院-12个课/task2.html" />
       </list>
     </option>
   </component>
@@ -317,8 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,6 +352,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,10 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.任务一：零基础HTML编码作业.html">
-    <configuration default="false" name="2-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/如何用css进行网页布局/2-1.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.task2.html">
     <configuration default="false" name="3-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/如何用css进行网页布局/3-1.html">
       <method />
     </configuration>
@@ -394,6 +394,9 @@
       <method />
     </configuration>
     <configuration default="false" name="任务一：零基础HTML编码作业.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/小薇学院-12个课/任务一：零基础HTML编码作业.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="task2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/小薇学院-12个课/task2.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -463,19 +466,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2-1.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.3-1.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.4-1.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.5-1.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.任务一：零基础HTML编码作业.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.3-1.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.4-1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.5-1.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.任务一：零基础HTML编码作业.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.任务一：零基础HTML编码作业.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.5-1.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.4-1.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.3-1.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.2-1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.任务一：零基础HTML编码作业.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.5-1.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.4-1.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.3-1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -520,12 +523,13 @@
       <workItem from="1490294784010" duration="5084000" />
       <workItem from="1490348689542" duration="22002000" />
       <workItem from="1490508021638" duration="2396000" />
-      <workItem from="1490667002634" duration="20724000" />
+      <workItem from="1490667002634" duration="21395000" />
+      <workItem from="1490842942711" duration="16850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129236000" />
+    <option name="totallyTimeSpent" value="146757000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,22 +542,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3831" y="-9" width="2578" height="1408" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.105450235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.49526066" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984716" sideWeight="0.5094787" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3998391" sideWeight="0.50789887" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984716" sideWeight="0.49052134" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.48894155" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998391" sideWeight="0.4936809" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3998391" sideWeight="0.4921011" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -568,22 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTML+CSS.md" />
-    <entry file="file://$PROJECT_DIR$/1-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML+CSS.md" />
-    <entry file="file://$PROJECT_DIR$/1-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML+CSS.md" />
     <entry file="file://$PROJECT_DIR$/1-1.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -778,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,35 +803,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/2-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/2-1.css" />
     <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/3-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="1014">
           <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.58d9f493a3888f2/三列左右固定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.58d9f493a3888f2/三列左右固定.html" />
     <entry file="file://$PROJECT_DIR$/headfirstjquery/chapter02-01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,13 +824,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/2-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
+        <state relative-caret-position="390">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -869,7 +838,7 @@
     <entry file="file://$PROJECT_DIR$/如何用css进行网页布局.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="433">
+          <first_editor relative-caret-position="2730">
             <caret line="70" column="10" lean-forward="false" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
             <folding />
           </first_editor>
@@ -877,10 +846,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.58d9f47ea383583/三列自适应.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/BNZ.58d9f47ea383583/三列自适应.html" />
+    <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/5-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="677">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -893,19 +863,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/如何用css进行网页布局/5-1.html">
+    <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1409">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="209">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="39">
+            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/任务一：零基础HTML编码.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="499">
-            <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <first_editor relative-caret-position="265">
+            <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="328" column="16" lean-forward="false" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/任务二：零基础HTML及CSS编码（一）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="589">
+            <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -980,8 +980,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2496">
-            <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <first_editor relative-caret-position="604">
+            <caret line="306" column="16" lean-forward="false" selection-start-line="306" selection-start-column="11" selection-end-line="306" selection-end-column="16" />
             <folding>
               <marker date="1489658146711" expanded="true" signature="311:412" ph="..." />
               <marker date="1489658146711" expanded="true" signature="581:741" ph="..." />
@@ -1049,20 +1049,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/任务一：零基础HTML编码作业.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="239">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-819">
-            <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
