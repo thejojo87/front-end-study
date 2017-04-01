@@ -49,14 +49,14 @@
             background-color: blue;
             border-radius: 15px;
     }
-    label{
-        /*float: left;*/
-        /*align: middle;*/
-        position: absolute;
-        margin: 0 0 0 36%;
-        text-align: right;
-        height: 10px;
-    }
+    /*label{*/
+        /*!*float: left;*!*/
+        /*!*align: middle;*!*/
+        /*position: absolute;*/
+        /*margin: 0 0 0 36%;*/
+        /*text-align: right;*/
+        /*height: 10px;*/
+    /*}*/
     .icon{
         /*color: black;*/
         margin: 5px;
@@ -65,53 +65,96 @@
         width: auto;
         height: 40px;
     }
-    input.text{
-        margin: 0 0 0 50%;
-        height: 20px;
-    }
-    input.radio,select,textarea{
-        margin: 0 0 0 50%;
-    }
+    /*input.text{*/
+        /*margin: 0 0 0 50%;*/
+        /*height: 20px;*/
+    /*}*/
+    /*input.radio,select,textarea{*/
+        /*margin: 0 0 0 50%;*/
+    /*}*/
     .explain{
         position: relative;
         margin:0 0 0 50%;
         color: gray;
     }
-    li
-    {
-        display:inline;
+    nav{
+        margin-right:10px;
         float: right;
+        margin-top:15px;
     }
-    ul
-    {
-        list-style-type:none;
-        margin: 5px;
-        padding:0;
-        padding-top:6px;
-        padding-bottom:6px;
-        /*list-style-type:inherit;*/
-        /*margin-top: 5px;*/
-        /*height: 40px;*/
-        /*padding:0;*/
+    nav ul li {
+        float: right;
+        margin:0 20px;
     }
-    .first{
-        background-color: gray;
+    nav a{
+        color: #ffffff;
+        font-size: 12px;
+    }
+    /*header*/
+    header{
+        width: 100%;
+        background: #333333;
+        height: 50px;
+    }
+    article{
+        background: #ffffff;
+        margin: 20px;
+        border: 1px #cccccc;
+        padding: 20px;
+        box-shadow: 1px 1px 5px black;
+    }
+    blockquote{
+        border-left: 3px solid #ccc;
+        height: 40px;
+    }
+    form{
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    form p{
+        color: #aaa;
+        margin-left: 39.5%;
+    }
+    label{
+        display: inline-block;
+        width: 40%;
+        float: left;
+        vertical-align: top;
+        text-align: right;
+        margin-right: 20px;
+        /*font-size: px;*/
+    }
+    /*footer*/
+    footer{
+        background: #333333;
+        height: 50px;
+    }
+    footer p{
+        position: relative;
+        color: white;
+        text-align: center;
+        top: 12px;
     }
     </style>
 </head>
 <body>
-<div class="first">
+<header>
 <img class="icon" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png">
 
+    <nav>
 <ul>
     <li><a href="#home">Home</a></li>
     <li><a href="#news">News</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#about">About</a></li>
 </ul>
-</div>
+    </nav>
+</header>
 <div class="out">
-<h2>文章一级标题</h2>
+
+    <article id="article1">
+
+        <h2>文章一级标题</h2>
 <h3>文章二级标题</h3>
 
 <p>文章作者 文章发表时间</p>
@@ -126,6 +169,7 @@
     这是个段落这是个段落这<strong>这里有一个粗体字</strong>是个段落这是个段落这是个段
     <a href="http://www.w3school.com.cn">这里有一个链接到http://ife.baidu.com</a>
     落这是个段落这是个段落这<br>是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落</p>
+    </article>
 </div>
 
 <div class="out">
@@ -185,7 +229,9 @@
 </div>
 
 <div class="out">
-    <h2><abbr >这是新的一个段落.这个是引用</abbr></h2>
+    <blockquote>
+        <h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+    </blockquote>
 <br>
     <div class="in">
         <label for='email'>请输入邮箱地址</label>
@@ -207,7 +253,7 @@
         <label class="explain" for='email'>密码请为6-16位数字</label>
 <br>
 <br>
-<form>
+        <form>
     <label class="text">性别</label>
     <input class="radio" type="radio" value = "yes" checked="checked" >男
     <input  type="radio" value = "no">女<br>
@@ -237,10 +283,66 @@
     </div>
 </div>
 
+<article>
+    <blockquote>
+        <h3>这里是新的我自己做的，这是侧栏的标题</h3>
+    </blockquote>
+
+    <form class="form1">
+        <div class="email">
+        <label for="email">请输入邮箱地址:</label>
+        <input type="email" id="email" placeholder="这是一个文本输入框">
+            <p>邮箱地址请按要求格式输入</p>
+        </div>
+
+        <label for='email'>请输入密码</label>
+        <input type="email" class="text" placeholder="这是一个输入框"> <br><br>
+        <label class="text" for='email'>请重复输入密码</label>
+        <input class="text"  type="password" pattern="[0-9]" min="6" max="16" placeholder="这是一个输入框">
+
+        <br>
+        <br>
+        <label class="explain" for='email'>密码请为6-16位数字</label>
+        <br>
+        <br>
+
+            <label class="text">性别</label>
+            <input class="radio" type="radio" value = "yes" checked="checked" >男
+            <input  type="radio" value = "no">女<br>
+            <br>
+            <label>城市</label>
+            <select>
+                <option value="深圳">深圳</option>
+                <option value="天津">天津</option>
+                <option value="上海">上海</option>
+                <option value="北京" selected="selected">北京</option>
+            </select>
+            <br>
+            <br>
+            <label>爱好</label>
+            <input class="radio" type="checkbox">运动
+            <input type="checkbox">艺术
+            <input type="checkbox">科学
+            <br>
+            <br>
+            <label for='email'>个人描述</label>
+
+            <textarea class="radio" rows="5" cols="80">这是一个多行输入框，输入您的个人描述</textarea>
+            <br>
+        <br>
+        <br>
+        <br>
+            <input id="submit2" type="submit" value="确认提交">
+        </form>
+</article>
 <br>
 <br>
 版权所有@
 
+
+<footer>
+    <p><small>版权所有</small>&copy;</p>
+</footer>
 </body>
 </html>
 
