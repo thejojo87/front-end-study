@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务五：零基础HTML及CSS编码（二）</title>
+    <style type="text/css">
+        header{
+            background-color: gray;
+            width:100%;
+            height: 100px;
+        }
+        header img{
+            height:90%;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        nav{
+            float: right;
+            margin-top: 0;
+            margin-right: 30px;
+        }
+        nav ul li{
+            float: left;
+            margin:20px 15px;
+        }
+        nav ul li:hover,nav a:hover{
+            color: blue;
+            size: 24px;
+        }
+        nav a{
+            color: #FFFFFF;
+            font-size: 16px;
+        }
+        footer{
+            background-color: black;
+            width:100%;
+            height: 100px;
+        }
+        footer p {
+            color: #FFFFFF;
+            position: relative;
+            text-align: center;
+            top: 40px;
+            margin-top:0;
+        }
+        .main{
+            background-color: wheat;
+            padding: 20px;
+            float: left;
+            margin-right: 500px;
+            height:100%;
+            /*display: inline;*/
+            /*width: auto;*/
+
+        }
+        aside{
+            position: absolute;
+            top: 100px;
+            right: 30px;
+            /*float: right;*/
+            margin-top: 40px;
+            width: 500px;
+            /*right: 600px;*/
+        }
+        .mainbody{
+            padding: 20px;
+            width: auto;
+        }
+        article{
+            margin-top: 20px;
+            background-color: ;
+            border: 2px solid red;
+            padding: 50px;
+        }
+        article p{
+            text-indent: 2em;
+        }
+        body{
+            margin:0;
+            background-color: wheat;
+        }
+        article table{
+            border:1px none;
+            width:100%;
+        }
+        article table th{
+            border: 1px solid blue;
+            background-color: green;
+        }
+        article table td{
+            border: 1px none white;
+        }
+        .no1{
+            background-color: darkgray;
+        }
+        #second{
+            padding-top: 100px;
+            padding-bottom: 0;
+            padding-left:0;
+            width: auto;
+            height:auto;
+            overflow: auto;
+        }
+        .image{
+            /*padding: 50px;*/
+            margin-top: -50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 100px;
+            border: 1px solid blue;
+            /*display: inline;*/
+            float: left;
+            background-color: #ffcc00;
+            height: 100px;
+            width: 100px;
+        }
+        .image img{
+            display:block;
+            margin-top: 20px;
+            /*margin: 0 auto;*/
+            margin-left: 25px;
+            height: 50px;
+            width: 50px;
+        }
+        .image h4{
+            width: 40px;
+            height: 10px;
+            margin: 0 auto;
+        }
+        aside h1{
+            border-left: 3px solid blue;
+            padding-left: 10px;
+        }
+        form{
+            line-height: 30px;
+            margin-top: 20px;
+        }
+        form p{
+            color: #aaa;
+            margin-left: 39.5%;
+        }
+        label{
+            display: inline-block;
+            width: 40%;
+            float: left;
+            vertical-align: top;
+            text-align: right;
+            margin-right: 20px;
+            /*font-size: px;*/
+        }
+        #submit{
+            width: 100%;
+            height: 50px;
+            color: white;
+            background-color: blue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="icon" src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png">
+        <nav>
+        <ul>
+            <li><a>导航链接一</a></li>
+            <li><a>导航链接二</a></li>
+            <li><a>导航链接三</a></li>
+            <li><a>导航链接四</a></li>
+        </ul>
+        </nav>
+    </header>
+    <div class="mainbody">
+    <div class="main">
+        <article id="first">
+            <h1>文章一级标题</h1>
+            <h2>文章二级标题</h2>
+            <h3>文章作者 文章发表时间</h3>
+            <p>说明 本任务不属于基础课程需要建议练习的任务，只提供给有余力的同学实践，大家根据兴趣选择即可。 此系列课程，导师邵帅会手把手教你实现在线德州扑克的思路和关键环节，对您以后开发复杂应用会有很大帮助。 任务目的 综合运用各种前端技术，实现一款复杂的大型应用：在线德州扑克，成为“全栈”工程师。 应用简介 任务中的“在线德州扑克”类似于“微扑克”或“德扑圈”，是朋友间组织牌局的工具应用。 任务（三）
+                任务内容 学习使用socket.io，实现官方文档中的即时通讯聊天室。 任务教学 参见官方文档。之后我们将使用socket.io</p>
+            <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            <p>这是个段落这是个段落这是个段落这是个段落<br>
+                这是个段落这是个段落这<strong>这里有一个粗体字</strong>是个段落这是个段落这是个段
+                <a href="http://www.w3school.com.cn">这里有一个链接到http://ife.baidu.com</a>
+                落这是个段落这是个段落这<br>是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落这是个段落</p>
+
+            <ul>
+                <li>一个</li>
+                <li>一个</li>
+                <li>一个</li>
+                <li>一个</li>
+            </ul>
+
+        </article>
+        <article id="second">
+
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <div class="image">
+                <h4>图片</h4>
+                <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+            </div>
+            <!--<div style="clear:both;"></div>-->
+            <!--<br style="clear:both;" />-->
+        </article>
+        <article id="third">
+            <h1>文章一级标题</h1>
+            <h2>文章二级标题</h2>
+            <h3>文章作者 文章发表时间</h3>
+            <ol>
+                <li>一个</li>
+                <li>一个</li>
+                <li>一个</li>
+                <li>一个</li>
+            </ol>
+            <label>下面是个表格</label>
+
+            <table border="1">
+                <tr>
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="http://www.w3school.com.cn">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="http://www.w3school.com.cn">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="http://www.w3school.com.cn">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="http://www.w3school.com.cn">操作</a></td>
+                </tr>
+                <tr>
+                    <td class="no1">总计</td>
+                    <td class="no1" colspan = "2">1000</td>
+                </tr>
+            </table>
+        </article>
+    </div>
+    <aside id="sidebar">
+        <article id="fourth">
+        <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
+            <form>
+                <div class="email">
+                    <label for='email'>请输入邮箱地址</label>
+                    <input class="text" id="email" type="text" placeholder="这是一个输入框">
+                    <p>邮箱地址请按要求格式输入</p>
+                </div>
+                <label for='psw'>请输入密码</label>
+                <input type="password" id="psw" placeholder="这是一个输入框"> <br><br>
+                <label for='repsw'>请重复输入密码</label>
+                <input class="text" id="repsw" type="password" pattern="[0-9]" min="6" max="16" placeholder="这是一个输入框">
+                <p>密码请为6-16位数字</p>
+                <label class="text">性别</label>
+
+                <input class="radio" type="radio"  checked="checked">男
+                <input  type="radio" value = "no">女<br>
+
+                <label>城市</label>
+                <select>
+                    <option value="深圳">深圳</option>
+                    <option value="天津">天津</option>
+                    <option value="上海">上海</option>
+                    <option value="北京" selected="selected">北京</option>
+                </select>
+                <br>
+                <label>爱好</label>
+                <input class="radio" type="checkbox">运动
+                <input type="checkbox">艺术
+                <input type="checkbox">科学
+                <br>
+                <label for='email'>个人描述</label>
+
+                <textarea class="radio" rows="4" cols="30">这是一个多行输入框，输入您的个人描述</textarea>
+                <br>
+                <input id="submit" type="submit" value="确认提交">
+            </form>
+
+        </article>
+    </aside>
+        <div style="clear:both;"></div>
+        <!--<br style="clear:both;" />-->
+    </div>
+    <footer>
+        <p>版权所有©</p>
+    </footer>
+</body>
+</html>

@@ -242,7 +242,7 @@ html是有header 和nav 标签的。页眉，还有导航栏链接,还有article
 
 ## 14. 如何水平和垂直居中？
 
-水平居中很容易：0 auto 就可以了。
+水平居中很容易：margin: 0 auto就可以了。
 垂直比较难，这个思路就是：
 position absolute，然后top 往下50%。
 因为方块，直接移动了50%，必须要往上调整自身高度的50%才可以。
@@ -288,4 +288,61 @@ http://www.fscwz.com/2016/03/18/understand-css-position/
     如果该元素的父元素的position值不为static(而是relative,absolute,fixed,inherit), 那么绝对定位元素的起点为父元素的左上角位置，
     当该元素的父元素为默认值(static),那么就检查父元素的父元素是否有非static定位，如果该元素应用了(relative,absolute,fixed,inherit)定位，则它的左上角便会成为绝对元素的起始位置。
     如果还没有，就向上遍历DOM，直到找到一个非static定位元素或寻找失败到达最外层浏览器窗口，此时绝对定位元素会相对于文档窗口来定位。
+## 17. 并排导航栏该怎么写？
+放在header里，然后放在一个nav里。
+nav，float right，然后nav里，ul li，float left 最后设置margin就可以了。
 
+## 18. p元素之间的白色margin怎么消除？
+
+margin-top:0;
+padding：0；
+
+## 19. p如何居中？
+
+text-align: center;
+
+## 20. 解决Div float后，父Div无法高度自适应的问题，其实就是父元素坍塌了  
+
+第一个和第三个方法管用。
+
+```css
+1. 额外标签法
+
+这种方法就是向父容器的末尾再插入一个额外的标签，并令其清除浮动（clear）以撑大父容器。这种方法浏览器兼容性好，没有什么问题，缺点就是需要额外的（而且通常是无语义的）标签。我个人比较喜欢这种方法，因为它简单、实用、浏览器兼容性好，而且这种方法也是W3C推荐的方法
+
+<div style="clear:both;"></div>
+
+       或者使用
+
+<br style="clear:both;" />
+
+2. 使用after伪类
+
+这种方法就是对父容器使用after伪类和内容声明在指定的现在内容末尾添加新的内容。经常的做法就是添加一个“点”，因为它比较小不太引人注意。然后我们再利用它来清除浮动（闭合浮动元素），并隐藏这个内容。这种方法兼容性一般，但经过各种 hack 也可以应付不同浏览器了，同时又可以保证html比较干净。
+
+ #outer:after
+{
+   content:".";
+   height:0;
+   visibility:hidden;
+   display:block;
+   clear:both;
+}
+
+3. 设置overflow为hidden或者auto
+
+这种做法就是将父容器的overflow设为hidden或auot就可以在标准兼容浏览器中闭合浮动元素。不过使用overflow的时候，可能会对页面表现带来影响，而且这种影响是不确定的，你最好是能在多个浏览器上测试你的页面。
+
+ #outer
+ {
+    overflow:auto;
+   zoom:1;
+}
+
+overflow:auto;是让高度自适应， zoom:1;是为了兼容IE6，也可以用height:1%;的方式来解决。
+```
+
+## 21. 图片不是块状元素所以无法并排
+
+display:block;
+就好了。
