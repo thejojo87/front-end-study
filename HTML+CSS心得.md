@@ -346,3 +346,92 @@ overflow:auto;是让高度自适应， zoom:1;是为了兼容IE6，也可以用h
 
 display:block;
 就好了。
+
+
+## 22. margin-top有效，margin-bottom无效
+
+header里有一个块，想把块里的文字往下放，结果发现margin-bottom无效。
+但是margin-top有效。
+不知道为什么
+
+
+这不是定位...
+
+margin-bottom是下方的外边距，并不能让元素向下方移动，margin-top作为上边距，把元素“推”了下去。
+
+题主的意思想必是希望图标距离下方30px，那么可以试试在ul上设置position: absolute，bottom: 30px，另外父元素position:relative
+
+## 23. 怎么把一个div叠加在另一个div上
+
+将一个div覆盖在另一个div上有两种手段：一是设置margin为负值，二是设置绝对定位。
+
+## 24. 如何首字母字号变大而不影响其下划线粗细的方法 
+
+```css
+.about{    
+font-size: 24px;    
+color: #000;    
+font-family: "微软雅黑";    
+line-height: 40px;    
+text-decoration: underline;    
+font-variant: small-caps;    /*关键样式*/
+text-transform: capitalize;  /*关键样式*/  
+}
+```
+
+## 25. 如何固定footer？
+
+https://segmentfault.com/a/1190000004453249
+
+```css
+方法二：footer高度固定+margin负值
+
+HTML结构：
+
+<body>
+    <div class="container">
+        <header>header</header>
+        <main>main content</main>
+    </div>
+    <footer>footer</footer>
+</body>
+
+CSS设置：
+
+html,body{height:100%;margin:0;padding:0;}
+
+.container{min-height:100%;}
+header{background-color: #ffe4c4;}
+main{padding-bottom:100px;background-color: #bdb76b;}/* main的padding-bottom值要等于或大于footer的height值 */
+footer{height:100px;margin-top:-100px;background-color: #ffc0cb;}/* margin-top（负值的）高度等于footer的height值 */
+
+此方法把footer之前的元素放在一个容器里面，形成了container和footer并列的结构：
+首先，设置.container的高度至少充满整个屏幕；
+其次，设置main（.container最后一个子元素）的padding-bottom值大于等于footer的height值；
+最后，设置footer的height值和margin-top负值。
+
+这种方法没有使用绝对定位，但html结构的语义化不如方法一中的结构清晰。
+
+也可以设置负值的margin-bottom在.container上面，此时html结构变化如下：
+
+<body>
+    <div class="container">
+        <header>header</header>
+        <main>main content</main>
+        <div class="empty"></div>
+    </div>
+    <footer>footer</footer>
+</body>
+
+CSS设置：
+
+html,body{height:100%;margin:0;padding:0;}
+.container{min-height:100%;margin-bottom:-100px;}
+.empty,footer{height:100px;}
+
+使用一个空的div把footer容器推到页面最底部，同时给container设置一个负值的margin-bottom，这个margin-bottom与footer和.empty的高度相等。
+
+虽然多了一个空的div，语义上也不怎么好，但是相比前面为main元素设置padding-bottom的方法有一个明显的好处：当网页内容不满一屏的时候，如果需要为main元素设置边框、背景色的时候，padding-bottom硬生生地撑出了一片空白，真真是有点丑，但是加个空的div之后，布局方式作用在.empty上，对main的css设置就不影响了，算是一个好处吧！
+```
+
+我使用了第二个方法。

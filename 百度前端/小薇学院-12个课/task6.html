@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务六：通过HTML及CSS模拟报纸排版</title>
+    <style type="text/css">
+        body{
+            background-color: gray;
+        }
+        .main{
+            background-color: white;
+            height: 1386px;
+            width: 980px;
+            margin:0 auto;
+        }
+        header{
+            background-color: white;
+            height: 61px;
+            width: 892px;
+            margin:0 auto;
+            /*padding-left: 100px;*/
+            border-bottom: 2px solid #938e9c;
+            /*overflow:hidden*/
+            /*padding-left: 44px;*/
+        }
+        .headfirst{
+            float: left;
+            background-color: red;
+            height: 61px;
+            width: 110px;
+        }
+        .headfirst p{
+            color: #ffffff;
+            font-size: 12px;
+            font-family: "黑体";
+            padding-top: 30px;
+            padding-left: 5px;
+        }
+        .headsecond{
+            float: right;
+        }
+        .headsecond p{
+            color: #d45d5c;
+            font-size: 12px;
+            font-family: "黑体";
+            padding-top: 30px;
+            /*padding-left: 800px;*/
+            padding-right: 5px;
+        }
+        .middle{
+            min-height:100%;
+            width: 980px;
+            padding-left: 44px;
+            /*float: left;*/
+            /*margin: 0 auto;*/
+        }
+        .middle img{
+            padding-top: 30px;
+            height: 301px;
+            width: 641px;
+            opacity: 0.5;
+            /*clip:rect(30px 150px 200px 50px)*/
+        }
+        .imgfirst{
+            background-color: chartreuse;
+            margin-top: -305px;
+            width: 191px;
+            height: 301px;
+        }
+        .imgsecond{
+            background-color: #d45d5c;
+            margin-top: -301px;
+            width: 191px;
+            height: 301px;
+            margin-left: 450px;
+        }
+        .topright{
+            float: right;
+            border-top: 2px solid #cc8091;
+            width: 203px;
+            height: 301px;
+            margin-top: -301px;
+            margin-right: 88px;
+            text-align: left;
+        }
+        .topright .big{
+            /*margin-top: ;*/
+            line-height: 5px;
+            font-size:24px;
+            font-family:"微软雅黑";
+            color:#000;
+            text-decoration:underline;
+            font-variant:small-caps;
+            text-transform:capitalize;
+            /*text-transform:capitalize;*/
+        }
+        #small {
+            font-size: 12px;
+            color: #676767;
+            font-family: 楷体;
+            padding-top: 5px;
+            line-height: 10px;
+        }
+        #smallbig{
+            font-size: 116px;
+            color: #75b86b;
+            font-family: 微软雅黑;
+            /*font-style:oblique;*/
+            margin-top: -10px;
+            /*text-align: center;*/
+            /*margin-left: -18px;*/
+        }
+        #last{
+            font-size: 55px;
+            color: #cc8091;
+            font-family: 微软雅黑;
+            margin-top: -137px;
+        }
+        #last1{
+            font-size: 21px;
+            font-family: 微软雅黑;
+            color: #cc8091;
+            margin-top:-104px;
+            margin-left: 90px;
+        }
+        #last2{
+            font-size: 12px;
+            font-family: 微软雅黑;
+            color: #cc8091;
+            margin-top:-26px;
+            margin-left: 90px;
+        }
+        footer{
+            /*position: absolute;*/
+            background-color: white;
+            height: 61px;
+            width: 892px;
+            margin:0 auto;
+            /*bottom: -1000 px;*/
+            margin-top: -122px;
+            /*padding-left: 100px;*/
+            /*padding-bottom: 100px;*/
+            border-top: 1px solid #938e9c;
+        }
+        footer p{
+            padding-top: 0;
+            padding-left: 813px;
+            background-color: #FFFFFF;
+            /*float:right;*/
+            color: #d45d5c;
+            font-size: 12px;
+            font-family: "黑体";
+        }
+        .middlearticle{
+            padding-top: 40px;
+        }
+        .middlearticle1{
+            width: 230px;
+            float: left;
+        }
+        .middlearticle1 label{
+            color: #418c59;
+            font-size: 16px;
+            font-family: 微软雅黑;
+            text-decoration:underline;
+            /*line-height: 16px;*/
+        }
+        .middlearticle1 article,.middlearticle3 article,.middlearticle2 article{
+            padding-top: 15px;
+            color: #767777;
+            font-size: 12px;
+            font-family: 宋体;
+            line-height: 16px;
+        }
+        .middlearticle2{
+            width: 205px;
+            float: left;
+            margin-left: 10px;
+        }
+        .middlearticle2 label{
+            color: #d2994f;
+            font-size: 16px;
+            font-family: 微软雅黑;
+            text-decoration:underline;
+        }
+        .middlearticle3{
+            width:230px;
+            float: left;
+            margin-left: 10px;
+        }
+        .middlearticle3 label{
+            color: #cc7680;
+            font-size: 16px;
+            font-family: 微软雅黑;
+            text-decoration:underline;
+        }
+        .middlearticle3 p{
+            padding-bottom: 0;
+            color: #cd4a48;
+            font-size: 12px;
+            font-family: 微软雅黑;
+            line-height: 16px;
+        }
+        .middlearticle3p{
+            padding-top: 24px;
+            /*margin-top:200px;*/
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <header>
+    <div class="headfirst">
+        <p>ife.baidu.com</p>
+    </div>
+    <div class="headsecond">
+        <p>2016.03</p>
+    </div>
+    </header>
+    <div class="middle">
+        <img src="http://www.xixi123.com/ueditor/php/upload/image/20170228/1488249334455706.jpg">
+        <div class="imgfirst">
+            first
+        </div>
+        <div class="imgsecond">
+            second
+        </div>
+        <div class="topright">
+            <p class="big">about</p>
+            <p class="big">techonology</p>
+            <p id="small">About technology about technology <br>about technologe</p>
+            <p id="smallbig">700</p>
+            <p id="last">3.2</p>
+            <p id="last1">css</p>
+            <p id="last2">csscsscsscsscsscss</p>
+        </div>
+        <div class="middlearticle">
+            <div class="middlearticle1">
+                <label>What</label>
+                <article>前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前段前段</article>
+            </div>
+            <div class="middlearticle2">
+                <label>When</label>
+                <article>前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前前段前段前段前段前段前段前段前段前段前段前段</article>
+            </div>
+            <div class="middlearticle3">
+                <label>How</label>
+                <article>前段前段前前段前段前段前<br>段前段前段前段前段前段前前段<br>前段前段前段前</article>
+                <div class="middlearticle3p">
+                <p>What-------- 40%</p>
+                <p>What-------- 30%</p>
+                <p>What-------- 30%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>ife.baidu.com</p>
+    </footer>
+
+
+</div>
+
+</body>
+</html>
