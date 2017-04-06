@@ -687,3 +687,58 @@ calc函数就可以了。
             width: calc(100% - 600px);
         }
 ```
+
+##36. @media all and (min-width:0px)这个是干什么用的？
+css3的屏幕查询（响应式布局）。屏幕大于多少像素该什么样子，要不然另一个样子。
+开始研究响应式web设计，CSS3 Media Queries是入门
+
+http://www.cnblogs.com/mofish/archive/2012/05/23/2515218.html
+
+如果要和手机大交道，可能需要这个。
+
+
+## 37. css使用正则表达式来精简共同的内容
+
+```css
+    .grid-container{
+        width: 100%; 
+        max-width: 1200px;      
+    }
+
+    /*-- our cleafix hack -- */ 
+    .row:before, 
+    .row:after {
+        content:"";
+          display: table ;
+        clear:both;
+    }
+
+    [class*='col-'] {
+        float: left; 
+        min-height: 1px; 
+        width: 16.66%; 
+        /*-- our gutter -- */
+        padding: 12px; 
+        background-color: #FFDCDC;
+    }
+
+    .col-1{ width: 16.66%; }
+    .col-2{ width: 33.33%; }
+    .col-3{ width: 50%;    }
+    .col-4{ width: 66.66%; }
+    .col-5{ width: 83.33%; }
+    .col-6{ width: 100%;   }
+
+    .outline, .outline *{
+        outline: 1px solid #F6A1A1; 
+    }
+
+    /*-- some extra column content styling --*/
+    [class*='col-'] > p {
+     background-color: #FFC2C2; 
+     padding: 0;
+     margin: 0;
+     text-align: center; 
+     color: white; 
+    }
+```
