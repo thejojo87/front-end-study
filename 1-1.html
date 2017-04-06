@@ -9,10 +9,51 @@
             color:#930;
             text-align:center;
         }
+
+        .select{
+            /*TEXT-ALIGN: center;*/
+            height: 80px;
+            width:100%;
+            background-color: #418c59;
+            display:flex;
+        }
+        .select1{
+            /*position: absolute;*/
+            float: inherit;
+            height: 30px;
+            width: 300px;
+            margin:auto;
+        }
+        select{
+            width: 200px;
+        }
     </style>
 </head>
 <body>
 <h1>Hello World22!</h1>
+<div class="select">
+    <div id="nation" class="select1">
+        <select >
+            <option>中国</option>
+            <option>韩国</option>
+            <option selected>日本</option>
+        </select>
+    </div>
+    <div id="province" class="select1">
+        <select >
+            <option>北京市</option>
+            <option>天津市</option>
+            <option selected>吉林</option>
+        </select>
+    </div>
+    <div id="city" class="select1">
+        <select >
+            <option>长春</option>
+            <option>延吉</option>
+            <option selected>首尔</option>
+        </select>
+    </div>
 
+</div>
 </body>
 </html>
