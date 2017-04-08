@@ -742,3 +742,91 @@ http://www.cnblogs.com/mofish/archive/2012/05/23/2515218.html
      color: white; 
     }
 ```
+
+## 38. 子元素设置margin-top为什么会作用在父元素上？
+
+
+https://segmentfault.com/q/1010000005943248
+
+```css
+    <style type="text/css">
+        header{
+            background-color: cornflowerblue;
+            width: 100%;
+            height: 100px;
+            /*position: relative;*/
+        }
+        .head1{
+            background-color: #FFFFFF;
+            width: 60px;
+            height: 60px;
+            margin-top: 20px;
+            margin-left: 60px;
+            /*position: absolute;*/
+            /*top:50%;*/
+            /*margin-top: -30px;*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--header有一个图标，搜索栏，登陆图标和登陆文字，4个部分-->
+        <div class="head1">
+            <div class="head12">
+
+            </div>
+        </div>
+
+
+    </header>
+
+
+</body>
+```
+
+
+
+CSS外边距合并
+
+http://www.w3school.com.cn/css/css_margin_collapsing.asp
+
+没有隔开，结果重合了。
+
+
+## 39. 放大镜怎么做？
+
+https://www.w3cplus.com/css3/create-apple-search-box-with-css3
+
+这里有一个纯css画出来的放大镜的搜索栏。
+
+或者说网上找图片，然后加在input上面也可以。
+
+http://www.cnblogs.com/tylerdonet/p/4881971.html
+
+这里就是正统的方法了，就是把放大镜图片当成background了。
+
+## 40. html里的空格键是哪个？
+
+```html
+&nbsp;
+```
+
+## 41. html怎么画各种图形？圆形等等
+
+http://www.cnblogs.com/jscode/archive/2012/10/19/2730905.html
+
+## 42. 如何使用css来设置一个下拉菜单？
+
+其实原理很简单，就是透明就看不到了。
+
+一个列表里加上一个input checkbox。
+当checkbox放开的时候，nth-of-type() 用这个函数，选择列表里的特定子元素，然后修改样式使之消失。
+
+http://jinlong.github.io/2016/01/14/checkbox-trickery-with-css/
+
+checkbox 加上元素选择让我吃尽了苦头。
++ 和 ~ 符号。相邻兄弟选择器和后代选择器。
+
+
+
+

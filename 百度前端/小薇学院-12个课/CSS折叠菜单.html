@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body {
+            margin: 20px;
+            font-family: avenir, sans-serif;
+        }
+        .toggle {
+            /*display: none;*/
+        }
+        .list {
+            display: inline-block;
+            vertical-align: top;
+            width: 200px;
+            margin: 0 20px 20px 0;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+        .title {
+            margin: 0 0 1em;
+            padding: 0.25em 5px;
+        }
+        .item {
+            overflow: hidden;
+        }
+        .item:nth-of-type(n+6) {
+            max-height: 0;
+            opacity: 0;
+            -webkit-transition: opacity 500ms, max-height 200ms;
+            transition: opacity 500ms, max-height 200ms;
+            -webkit-transition-delay: 0s, 500ms;
+            transition-delay: 0s, 500ms;
+        }
+        .toggle:checked + .list .item:nth-of-type(n+6) {
+            max-height: 4em;
+            opacity: 1;
+            -webkit-transition-delay: 200ms, 0s;
+            transition-delay: 200ms, 0s;
+        }
+        .item:nth-of-type(n+6) ~ .more {
+            /*display: block;*/
+            /*padding: 0.25em 5px;*/
+            /*cursor: pointer;*/
+            /*text-transform: uppercase;*/
+            /*border: 1px dashed #000;*/
+        }
+        /*.item:nth-of-type(n+6) ~ .more:before {*/
+            /*content: attr(data-toggle-open);*/
+        /*}*/
+        /*.toggle:checked + .list .item:nth-of-type(n+6) ~ .more:before {*/
+            /*content: attr(data-toggle-close);*/
+        /*}*/
+        /*.no-touch .item:nth-of-type(n+6) ~ .more:hover {*/
+            /*background-color: black;*/
+        /*}*/
+        /*.link {*/
+            /*display: block;*/
+            /*padding: 0.25em 5px;*/
+            /*color: #000;*/
+            /*text-decoration: none;*/
+            /*-webkit-transition: background-color 500ms;*/
+            /*transition: background-color 500ms;*/
+        /*}*/
+        /*.no-touch .link:hover {*/
+            /*background-color: red;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+
+
+<h2>使用纯CSS实现的可折叠展开的链接列表</h2>
+
+<input type="checkbox" id="list1" class="toggle" />
+<div class="list">
+    <h4 class="title">Lots of links</h4>
+    <div class="item"><a href="#" class="link">techbrood.com</a>
+    </div>
+    <div class="item"><a href="#" class="link">wow.techbrood.com</a>
+    </div>
+    <div class="item"><a href="#" class="link">yii2.techbrood.com</a>
+    </div>
+    <div class="item"><a href="#" class="link">wear.techbrood.com</a>
+    </div>
+    <div class="item"><a href="#" class="link">ideas.techbrood.com</a>
+    </div>
+    <div class="item"><a href="#" class="link">3d.techbrood.com</a>
+    </div>
+    <div class="item"><a href="#" class="link">gd.techbrood.com</a>
+    </div>
+    <div class="item"><a href="#" class="link">geeks.techbrood.com</a>
+    </div>
+    <label for="list1" class="more" data-toggle-open="View all" data-toggle-close="View less"></label>
+</div>
+
+<!--<input type="checkbox" id="list2" class="toggle" />-->
+<!--<div class="list" data-js-linklist>-->
+    <!--<h4 class="title">Not so many links</h4>-->
+    <!--<div class="item"><a href="#" class="link">techbrood.com</a>-->
+    <!--</div>-->
+    <!--<div class="item"><a href="#" class="link">wow.techbrood.com</a>-->
+    <!--</div>-->
+    <!--<div class="item"><a href="#" class="link">yii2.techbrood.com</a>-->
+    <!--</div>-->
+    <!--<div class="item"><a href="#" class="link">wear.techbrood.com</a>-->
+    <!--</div>-->
+    <!--<div class="item"><a href="#" class="link">No "view all" button!</a>-->
+    <!--</div>-->
+    <!--<label for="list2" class="more" data-toggle-open="View all" data-toggle-close="View less"></label>-->
+<!--</div>-->
+
+<hr style="clear:both">
+</body>
+</html>

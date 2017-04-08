@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务九：使用HTML/CSS实现一个复杂页面</title>
+    <style type="text/css">
+        body{padding: 0;margin: 0;}
+        header{
+            background-color: cornflowerblue;
+            width: 100%;
+            height: 100px;
+        }
+        .head1{
+            background-color: #FFFFFF;
+            width: 60px;
+            height: 60px;
+            top: 20px;
+            margin-left: 60px;
+            position: absolute;
+        }
+        .head12{
+            background-color: #FFFFFF;
+            height: 30px;
+            width:30px;
+            margin-top: 26px;
+            margin-left: 26px;
+            border: 4px solid cornflowerblue;
+        }
+
+        .search {
+            position: relative;
+        }
+
+        .search:before {
+            content: "";
+            border: 1px solid #777;
+            border-width: 1px 1px 2px;
+            width: 5px;
+            height: 0;
+            display: inline-block;
+            -moz-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            position: absolute;
+            left:16px;
+            top:15px;
+            z-index:3;
+        }
+
+        .search:after {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border: 2px solid #777;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            position: absolute;
+            z-index: 2;
+            left: 10px;
+            top: 7px;
+            display: inline-block;
+        }
+
+        .search input[type="text"] {
+            font: bold 12px Arial,Helvetica,Sans-serif;
+            width: 250px;
+            padding: 6px 15px 6px 35px;
+            border: 0 none;
+            color: #777;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+            border-radius: 20px;
+            -webkit-transition: all 0.7s ease 0s;
+            -moz-transition: all 0.7s ease 0s;
+            -o-transition: all 0.7s ease 0s;
+            transition: all 0.7s ease 0s;
+        }
+
+        .search input[type="text"]:focus {
+            width: 300px;
+        }
+        #searchApple{
+            position: absolute;
+            top: 35px;
+            margin-left:1000px;
+        }
+        .head14 img{
+            width: 30px;
+            height: 30px;
+        }
+        .head14{
+            height: 30px;
+            top: 35px;
+            margin-left: 90%;
+            position: absolute;
+        }
+        .head14 label{
+            /*position: absolute;*/
+            float: right;
+            padding-top: 5px;
+            /*padding-bottom: 20px;*/
+            size: 24px;
+            color: #FFFFFF;
+            font-family: 微软雅黑;
+        }
+        .leftmain{
+            height: 1200px;
+            width: 20%;
+            float: left;
+            background-color: #333333;
+            /*overflow:hidden;*/
+        }
+        .rightmain{
+            height: 1200px;
+            width: 80%;
+            float: right;
+            background-color: aqua;
+        }
+        .leftmain1{
+            height: 80px;
+            width: 100%;
+            float: left;
+            background-color: #333333;
+        }
+        #leftmain10{
+            width: 41px;
+            height: 41px;
+            background: #FFFFFF;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            margin-top: 20px;
+            margin-left:  calc(25%);
+        }
+        #leftmain11{
+
+            width: 34px;
+            height: 34px;
+            background: #FFFFFF;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            position: absolute;
+            margin-top: 1px;
+            margin-left: 1px;
+            border: 3px solid #333333;
+        }
+        #leftmain12{
+            position: absolute;
+            float: right;
+            margin-top: -30px;
+            margin-left: 10%;
+            color: #cccccc;
+        }
+        .leftmain2{
+            height: 80px;
+            width: 100%;
+            float: left;
+            background-color: #333333;
+        }
+        .leftmain2 p{
+            size: 24px;
+            color: #FFFFFF;
+            font-family: 微软雅黑;
+            margin-top: 10px;
+            margin-left: 27%;
+            /*margin-right:30%;*/
+            /*margin: 0 auto;*/
+        }
+        #leftmain21{
+            width: 2px;
+            height: 55px;
+            background-color: #999999;
+            position: absolute;
+            top: 192px;
+            margin-left: 9%;
+        }
+        .leftmain3{
+            /*position: relative;*/
+            background-color: #333333;;
+            width: 100%;
+            height: 500px;
+            padding-top: 20px;
+        }
+        .leftmain3 label{
+            color: #ffffff;
+        }
+        .leftmain31{
+            margin-top: 160px;
+            margin-left: 25%;
+        }
+        .leftmain32{
+            margin-left: 25%;
+            margin-top:10%;
+        }
+        .list1{
+            height: auto;
+            /*height：auto；*/
+            /*background-color: #d45d5c;*/
+            /*margin-left: 40px;*/
+        }
+        .item:nth-of-type(n+1),.item1:nth-of-type(n+1) {
+            max-height: 0;
+            opacity: 0;
+            /*-webkit-transition: opacity 500ms, max-height 200ms;*/
+            /*transition: opacity 500ms, max-height 200ms;*/
+            /*-webkit-transition-delay: 0s, 500ms;*/
+            /*transition-delay: 0s, 500ms;*/
+        }
+        .toggle1:checked ~.list1 .item:nth-of-type(n+1),.toggle2:checked ~.item1:nth-of-type(n+1) {
+            max-height: 7em;
+            opacity: 1;
+            /*max-height: 0;*/
+            /*opacity: 0;*/
+        }
+        .item {
+            /*height: 30%;*/
+            /*overflow: inherit;*/
+            margin-left: 5%;
+            /*margin-top: 20px;*/
+            /*overflow: hidden;*/
+        }
+        .item1{
+            margin-left:23%;
+        }
+        .aaa{
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!--header有一个图标，搜索栏，登陆图标和登陆文字，4个部分-->
+        <div class="head1">
+            <div class="head12">
+            </div>
+        </div>
+        <div class="head13">
+            <form action="" id="searchApple" method="get" class="search appleSearch">
+                <input type="text" name="search" size="40" placeholder="Search..." />
+            </form>
+        </div>
+        <div class="head14">
+            <img src="http://www.free-icons-download.net/images/male-user-icon-43788.png">
+            <label>登陆</label>
+        </div>
+
+    </header>
+
+    <!--这里就是主体部分-->
+    <div class="main">
+        <div class="leftmain">
+            <div class="leftmain1">
+                <div id="leftmain10">
+                    <div id="leftmain11"></div>
+                </div>
+                <label id="leftmain12">ABC123</label>
+            </div>
+            <div class="leftmain2">
+                <p>110&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;313</p>
+                <p>收藏&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;粉丝</p>
+                <div id="leftmain21"></div>
+
+            </div>
+            <div class="leftmain3">
+                <div class="leftmain31">
+
+
+                <input type="checkbox" class="toggle1" id="toggle1">
+                <label id="label1" for="toggle1">个人报表</label>
+                    <div class="list1">
+                    <div class="item">
+                        <input type="checkbox" class="toggle2" id="toggle2">
+                        <label class="link" for="toggle2">文件一</label>
+                        <div class="item1">
+                            <label class="link1">文档一</label>
+                        </div>
+                        <div class="item1">
+                            <label class="link1">文档二</label>
+                        </div>
+                        <div class="item1">
+                            <label class="link1">文档三</label>
+                        </div>
+                        <div class="item1">
+                            <label class="link1">文档四</label>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <input type="checkbox" class="toggle3" id="toggle3">
+                        <label class="link">文件二</label>
+                    </div>
+                    <div class="item">
+                        <input type="checkbox" class="toggle4" id="toggle4">
+                        <label class="link">文件三</label>
+                    </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="leftmain32">
+                    <input type="checkbox" class="toggle1" id="toggle21">
+                    <label id="label21" for="toggle1" class="aaa">个人收藏</label>
+                </div>
+                <div class="leftmain32">
+                    <input type="checkbox" class="toggle1" id="toggle22">
+                    <label id="label22" for="toggle1" class="aaa">我的分享</label>
+                </div>
+                <div class="leftmain32">
+                    <input type="checkbox" class="toggle1" id="toggle23">
+                    <label id="label23" for="toggle1" class="aaa">图库</label>
+                </div>
+                <div class="leftmain32">
+                    <input type="checkbox" class="toggle1" id="toggle24">
+                    <label id="label24" for="toggle1" class="aaa">成长记录</label>
+                </div>
+                <div class="leftmain32">
+                    <input type="checkbox" class="toggle1" id="toggle25">
+                    <label id="label25" for="toggle1" class="aaa">账户信息</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="rightmain">
+
+        </div>
+    </div>
+
+</body>
+</html>
