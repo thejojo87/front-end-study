@@ -819,6 +819,13 @@ http://www.cnblogs.com/jscode/archive/2012/10/19/2730905.html
 
 其实原理很简单，就是透明就看不到了。
 
+label有个for，然后checkbox设置。
+
+    Label标签的for属性
+    单选框的:check伪类
+    CSS的加号[+]选择器
+
+
 一个列表里加上一个input checkbox。
 当checkbox放开的时候，nth-of-type() 用这个函数，选择列表里的特定子元素，然后修改样式使之消失。
 
@@ -827,6 +834,14 @@ http://jinlong.github.io/2016/01/14/checkbox-trickery-with-css/
 checkbox 加上元素选择让我吃尽了苦头。
 + 和 ~ 符号。相邻兄弟选择器和后代选择器。
 
+## 43. tab怎么制作？
+也是一样的原理。
+
+    Label标签的for属性
+    单选框的:check伪类
+    CSS的加号[+]选择器
+
+https://segmentfault.com/a/1190000003062025
 
 
 
