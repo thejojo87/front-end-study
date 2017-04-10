@@ -7,11 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5992959-82a2-45b1-80c1-4b561c32b79a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript心得.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务三：零基础JavaScript编码（三）.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript心得.md" afterPath="$PROJECT_DIR$/javascript心得.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -126,27 +125,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript心得.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="javascript心得.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript心得.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="639">
-                <caret line="95" column="9" lean-forward="false" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+              <first_editor relative-caret-position="249">
+                <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
                 <folding>
-                  <marker date="1491804720548" expanded="true" signature="586:1742" ph="..." />
-                  <marker date="1491804720548" expanded="true" signature="623:706" ph="..." />
-                  <marker date="1491804720548" expanded="true" signature="633:698" ph="..." />
-                  <marker date="1491804720548" expanded="true" signature="777:1733" ph="..." />
-                  <marker date="1491804720548" expanded="true" signature="798:925" ph="[...]" />
-                  <marker date="1491804720548" expanded="true" signature="949:1723" ph="{...}" />
-                  <marker date="1491804720548" expanded="true" signature="960:1061" ph="/*...*/" />
-                  <marker date="1491804720548" expanded="true" signature="1179:1290" ph="{...}" />
-                  <marker date="1491804720548" expanded="true" signature="1220:1280" ph="{...}" />
-                  <marker date="1491804720548" expanded="true" signature="1396:1717" ph="{...}" />
-                  <marker date="1491804720548" expanded="true" signature="1488:1707" ph="{...}" />
-                  <marker date="1491804720548" expanded="true" signature="1827:2148" ph="{...}" />
-                  <marker date="1491804720548" expanded="true" signature="1919:2138" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="586:1742" ph="..." />
+                  <marker date="1491819812008" expanded="true" signature="623:706" ph="..." />
+                  <marker date="1491819812008" expanded="true" signature="633:698" ph="..." />
+                  <marker date="1491819812008" expanded="true" signature="777:1733" ph="..." />
+                  <marker date="1491819812008" expanded="true" signature="798:925" ph="[...]" />
+                  <marker date="1491819812008" expanded="true" signature="949:1723" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="960:1061" ph="/*...*/" />
+                  <marker date="1491819812008" expanded="true" signature="1179:1290" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="1220:1280" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="1396:1717" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="1488:1707" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="1827:2148" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="1919:2138" ph="{...}" />
+                  <marker date="1491819812008" expanded="true" signature="4074:4117" ph="{...}" />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task3.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="80" column="29" lean-forward="false" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="任务三：零基础JavaScript编码（三）.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务三：零基础JavaScript编码（三）.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="390">
+                <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -169,18 +194,8 @@
       <file leaf-file-name="task2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="429">
+              <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -196,19 +211,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="任务九：使用htmlCSS实现一个复杂页面.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/任务九：使用htmlCSS实现一个复杂页面.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2535">
-                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -216,8 +218,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="MarkDown" />
         <option value="HTML File" />
+        <option value="MarkDown" />
       </list>
     </option>
   </component>
@@ -249,8 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javascript入门经典/10-1.html" />
-        <option value="$PROJECT_DIR$/javascript入门经典/10-2.html" />
         <option value="$PROJECT_DIR$/javascript入门经典/10-3.html" />
         <option value="$PROJECT_DIR$/Javascript入门篇.md" />
         <option value="$PROJECT_DIR$/javascript深入浅出/1-1.js" />
@@ -299,7 +299,9 @@
         <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md" />
         <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html" />
         <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html" />
+        <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务三：零基础JavaScript编码（三）.md" />
         <option value="$PROJECT_DIR$/javascript心得.md" />
+        <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task3.html" />
       </list>
     </option>
   </component>
@@ -425,7 +427,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="SearchEverywhereHistoryKey" value="ide shortcut&#9;null&#9;null" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -448,20 +450,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.task2.html">
+  <component name="RunManager" selected="JavaScript Debug.task3.html">
     <configuration default="false" name="task7.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/小薇学院-12个课/task7.html">
       <method />
     </configuration>
     <configuration default="false" name="1-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/1-1.html">
       <method />
     </configuration>
-    <configuration default="false" name="CSS折叠菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/小薇学院-12个课/CSS折叠菜单.html">
-      <method />
-    </configuration>
     <configuration default="false" name="task1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/斌斌学院-9个课程/task1.html">
       <method />
     </configuration>
     <configuration default="false" name="task2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/斌斌学院-9个课程/task2.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="task3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/斌斌学院-9个课程/task3.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -533,17 +535,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.task7.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-1.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS折叠菜单.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.task3.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.task7.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-1.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CSS折叠菜单.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.task3.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.task7.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1-1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -593,12 +595,12 @@
       <workItem from="1490932379825" duration="97541000" />
       <workItem from="1491318899521" duration="42806000" />
       <workItem from="1491544154553" duration="16306000" />
-      <workItem from="1491623874255" duration="38717000" />
+      <workItem from="1491623874255" duration="48035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343450000" />
+    <option name="totallyTimeSpent" value="352768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,13 +617,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20023696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.49526066" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.52685624" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.528436" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.47314376" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.471564" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.47314376" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.471564" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -642,33 +644,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Javascript入门经典.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="293">
-            <caret line="176" column="28" lean-forward="false" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/headfirstjquery/aaa.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/headfirstjquery/chapter02-01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/headfirstjquery/chapter02-01.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -1156,39 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="109">
-            <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务一：零基础JavaScript编码（一）.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="249">
-            <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-            <folding>
-              <marker date="1491755171831" expanded="true" signature="646:742" ph="{...}" />
-              <marker date="1491755171831" expanded="true" signature="650:739" ph="/*...*/" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -1255,6 +1197,25 @@
             <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <marker date="1491748227024" expanded="true" signature="5367:5712" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/aaa.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,10 +1295,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务一：零基础JavaScript编码（一）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="249">
+            <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
+            <folding>
+              <marker date="1491755171831" expanded="true" signature="646:742" ph="{...}" />
+              <marker date="1491755171831" expanded="true" signature="650:739" ph="/*...*/" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="109">
+            <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务三：零基础JavaScript编码（三）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="429">
+          <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1345,25 +1342,36 @@
     <entry file="file://$PROJECT_DIR$/javascript心得.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="639">
-            <caret line="95" column="9" lean-forward="false" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <first_editor relative-caret-position="249">
+            <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
             <folding>
-              <marker date="1491804720548" expanded="true" signature="586:1742" ph="..." />
-              <marker date="1491804720548" expanded="true" signature="623:706" ph="..." />
-              <marker date="1491804720548" expanded="true" signature="633:698" ph="..." />
-              <marker date="1491804720548" expanded="true" signature="777:1733" ph="..." />
-              <marker date="1491804720548" expanded="true" signature="798:925" ph="[...]" />
-              <marker date="1491804720548" expanded="true" signature="949:1723" ph="{...}" />
-              <marker date="1491804720548" expanded="true" signature="960:1061" ph="/*...*/" />
-              <marker date="1491804720548" expanded="true" signature="1179:1290" ph="{...}" />
-              <marker date="1491804720548" expanded="true" signature="1220:1280" ph="{...}" />
-              <marker date="1491804720548" expanded="true" signature="1396:1717" ph="{...}" />
-              <marker date="1491804720548" expanded="true" signature="1488:1707" ph="{...}" />
-              <marker date="1491804720548" expanded="true" signature="1827:2148" ph="{...}" />
-              <marker date="1491804720548" expanded="true" signature="1919:2138" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="586:1742" ph="..." />
+              <marker date="1491819812008" expanded="true" signature="623:706" ph="..." />
+              <marker date="1491819812008" expanded="true" signature="633:698" ph="..." />
+              <marker date="1491819812008" expanded="true" signature="777:1733" ph="..." />
+              <marker date="1491819812008" expanded="true" signature="798:925" ph="[...]" />
+              <marker date="1491819812008" expanded="true" signature="949:1723" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="960:1061" ph="/*...*/" />
+              <marker date="1491819812008" expanded="true" signature="1179:1290" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="1220:1280" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="1396:1717" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="1488:1707" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="1827:2148" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="1919:2138" ph="{...}" />
+              <marker date="1491819812008" expanded="true" signature="4074:4117" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="80" column="29" lean-forward="false" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
