@@ -7,11 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5992959-82a2-45b1-80c1-4b561c32b79a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务一：零基础JavaScript编码（一）.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript心得.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML+CSS心得.md" afterPath="$PROJECT_DIR$/HTML+CSS心得.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/百度前端/小薇学院-12个课/task9.html" afterPath="$PROJECT_DIR$/百度前端/小薇学院-12个课/task9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html" afterPath="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -110,86 +110,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task9.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task9.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="369" column="1" lean-forward="false" selection-start-line="369" selection-start-column="1" selection-end-line="369" selection-end-column="1" />
-              <folding>
-                <element signature="e#187#296#0" expanded="false" />
-                <element signature="e#311#498#0" expanded="false" />
-                <element signature="e#514#721#0" expanded="false" />
-                <element signature="e#739#782#0" expanded="false" />
-                <element signature="e#807#1310#0" expanded="false" />
-                <element signature="e#1334#1701#0" expanded="false" />
-                <element signature="e#1738#2220#0" expanded="false" />
-                <element signature="e#2263#2300#0" expanded="false" />
-                <element signature="e#2321#2419#0" expanded="false" />
-                <element signature="e#2439#2501#0" expanded="false" />
-                <element signature="e#2517#2639#0" expanded="false" />
-                <element signature="e#2661#2885#0" expanded="false" />
-                <element signature="e#2903#3063#0" expanded="false" />
-                <element signature="e#3082#3207#0" expanded="false" />
-                <element signature="e#3226#3352#0" expanded="false" />
-                <element signature="e#3372#3646#0" expanded="false" />
-                <element signature="e#3666#4004#0" expanded="false" />
-                <element signature="e#4024#4182#0" expanded="false" />
-                <element signature="e#4201#4327#0" expanded="false" />
-                <element signature="e#4348#4568#0" expanded="false" />
-                <element signature="e#4588#4773#0" expanded="false" />
-                <element signature="e#4792#4962#0" expanded="false" />
-                <element signature="e#4987#5026#0" expanded="false" />
-                <element signature="e#5046#5118#0" expanded="false" />
-                <element signature="e#5138#5207#0" expanded="false" />
-                <element signature="e#5222#5366#0" expanded="false" />
-                <element signature="e#5422#5712#0" expanded="false" />
-                <element signature="e#5811#5934#0" expanded="false" />
-                <element signature="e#5949#6121#0" expanded="false" />
-                <element signature="e#6136#6176#0" expanded="false" />
-                <element signature="e#6189#6230#0" expanded="false" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#8351#8357#0" expanded="true" />
-                <element signature="e#8357#8363#0" expanded="true" />
-                <element signature="e#8363#8369#0" expanded="true" />
-                <element signature="e#8369#8375#0" expanded="true" />
-                <element signature="e#8375#8381#0" expanded="true" />
-                <element signature="e#8381#8387#0" expanded="true" />
-                <element signature="e#8387#8393#0" expanded="true" />
-                <element signature="e#8393#8399#0" expanded="true" />
-                <element signature="e#8399#8405#0" expanded="true" />
-                <element signature="e#8405#8411#0" expanded="true" />
-                <element signature="e#8440#8446#0" expanded="true" />
-                <element signature="e#8446#8452#0" expanded="true" />
-                <element signature="e#8452#8458#0" expanded="true" />
-                <element signature="e#8458#8464#0" expanded="true" />
-                <element signature="e#8464#8470#0" expanded="true" />
-                <element signature="e#8470#8476#0" expanded="true" />
-                <element signature="e#8476#8482#0" expanded="true" />
-                <element signature="e#8482#8488#0" expanded="true" />
-                <element signature="e#8488#8494#0" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1491748227024" expanded="true" signature="5367:5712" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="任务一：零基础JavaScript编码（一）.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务一：零基础JavaScript编码（一）.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1302">
-                <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+              <first_editor relative-caret-position="249">
+                <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
                 <folding>
-                  <marker date="1491750492159" expanded="true" signature="646:742" ph="{...}" />
-                  <marker date="1491750492159" expanded="true" signature="650:739" ph="/*...*/" />
+                  <marker date="1491755171831" expanded="true" signature="646:742" ph="{...}" />
+                  <marker date="1491755171831" expanded="true" signature="650:739" ph="/*...*/" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -197,11 +126,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="javascript心得.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript心得.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="639">
+                <caret line="95" column="9" lean-forward="false" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+                <folding>
+                  <marker date="1491804720548" expanded="true" signature="586:1742" ph="..." />
+                  <marker date="1491804720548" expanded="true" signature="623:706" ph="..." />
+                  <marker date="1491804720548" expanded="true" signature="633:698" ph="..." />
+                  <marker date="1491804720548" expanded="true" signature="777:1733" ph="..." />
+                  <marker date="1491804720548" expanded="true" signature="798:925" ph="[...]" />
+                  <marker date="1491804720548" expanded="true" signature="949:1723" ph="{...}" />
+                  <marker date="1491804720548" expanded="true" signature="960:1061" ph="/*...*/" />
+                  <marker date="1491804720548" expanded="true" signature="1179:1290" ph="{...}" />
+                  <marker date="1491804720548" expanded="true" signature="1220:1280" ph="{...}" />
+                  <marker date="1491804720548" expanded="true" signature="1396:1717" ph="{...}" />
+                  <marker date="1491804720548" expanded="true" signature="1488:1707" ph="{...}" />
+                  <marker date="1491804720548" expanded="true" signature="1827:2148" ph="{...}" />
+                  <marker date="1491804720548" expanded="true" signature="1919:2138" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="任务二：零基础JavaScript编码（二）.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="109">
+                <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+            <state relative-caret-position="468">
+              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -270,9 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/javascript入门经典/9-1.html" />
-        <option value="$PROJECT_DIR$/javascript入门经典/9-2.html" />
-        <option value="$PROJECT_DIR$/javascript入门经典/9-2.js" />
         <option value="$PROJECT_DIR$/javascript入门经典/10-1.html" />
         <option value="$PROJECT_DIR$/javascript入门经典/10-2.html" />
         <option value="$PROJECT_DIR$/javascript入门经典/10-3.html" />
@@ -320,7 +296,10 @@
         <option value="$PROJECT_DIR$/HTML+CSS心得.md" />
         <option value="$PROJECT_DIR$/百度前端/小薇学院-12个课/task9.html" />
         <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务一：零基础JavaScript编码（一）.md" />
+        <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md" />
         <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html" />
+        <option value="$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html" />
+        <option value="$PROJECT_DIR$/javascript心得.md" />
       </list>
     </option>
   </component>
@@ -436,20 +415,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="如何用css进行网页布局" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -483,20 +448,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.task1.html">
+  <component name="RunManager" selected="JavaScript Debug.task2.html">
     <configuration default="false" name="task7.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/小薇学院-12个课/task7.html">
       <method />
     </configuration>
     <configuration default="false" name="1-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/1-1.html">
       <method />
     </configuration>
-    <configuration default="false" name="task9.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/小薇学院-12个课/task9.html">
-      <method />
-    </configuration>
     <configuration default="false" name="CSS折叠菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/小薇学院-12个课/CSS折叠菜单.html">
       <method />
     </configuration>
     <configuration default="false" name="task1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/斌斌学院-9个课程/task1.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="task2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/html-study/百度前端/斌斌学院-9个课程/task2.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -568,17 +533,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.task7.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1-1.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.task9.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CSS折叠菜单.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CSS折叠菜单.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.task7.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.1-1.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.CSS折叠菜单.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.task9.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.task2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.task1.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.task7.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1-1.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CSS折叠菜单.html" />
       </list>
     </recent_temporary>
   </component>
@@ -628,12 +593,12 @@
       <workItem from="1490932379825" duration="97541000" />
       <workItem from="1491318899521" duration="42806000" />
       <workItem from="1491544154553" duration="16306000" />
-      <workItem from="1491623874255" duration="33193000" />
+      <workItem from="1491623874255" duration="38717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337926000" />
+    <option name="totallyTimeSpent" value="343450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,13 +615,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20023696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.49526066" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.5252765" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.52685624" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.47472355" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984716" sideWeight="0.47314376" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.47472355" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20273532" sideWeight="0.47314376" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -677,38 +642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javascript深入浅出/1-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="61" column="44" lean-forward="false" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript深入浅出.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Javascript入门篇.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1521">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Javascript入门经典.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1215,6 +1148,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务二：零基础JavaScript编码（二）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="109">
+            <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务一：零基础JavaScript编码（一）.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="249">
+            <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
+            <folding>
+              <marker date="1491755171831" expanded="true" signature="646:742" ph="{...}" />
+              <marker date="1491755171831" expanded="true" signature="650:739" ph="/*...*/" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="369" column="1" lean-forward="false" selection-start-line="369" selection-start-column="1" selection-end-line="369" selection-end-column="1" />
+          <folding>
+            <element signature="e#187#296#0" expanded="false" />
+            <element signature="e#311#498#0" expanded="false" />
+            <element signature="e#514#721#0" expanded="false" />
+            <element signature="e#739#782#0" expanded="false" />
+            <element signature="e#807#1310#0" expanded="false" />
+            <element signature="e#1334#1701#0" expanded="false" />
+            <element signature="e#1738#2220#0" expanded="false" />
+            <element signature="e#2263#2300#0" expanded="false" />
+            <element signature="e#2321#2419#0" expanded="false" />
+            <element signature="e#2439#2501#0" expanded="false" />
+            <element signature="e#2517#2639#0" expanded="false" />
+            <element signature="e#2661#2885#0" expanded="false" />
+            <element signature="e#2903#3063#0" expanded="false" />
+            <element signature="e#3082#3207#0" expanded="false" />
+            <element signature="e#3226#3352#0" expanded="false" />
+            <element signature="e#3372#3646#0" expanded="false" />
+            <element signature="e#3666#4004#0" expanded="false" />
+            <element signature="e#4024#4182#0" expanded="false" />
+            <element signature="e#4201#4327#0" expanded="false" />
+            <element signature="e#4348#4568#0" expanded="false" />
+            <element signature="e#4588#4773#0" expanded="false" />
+            <element signature="e#4792#4962#0" expanded="false" />
+            <element signature="e#4987#5026#0" expanded="false" />
+            <element signature="e#5046#5118#0" expanded="false" />
+            <element signature="e#5138#5207#0" expanded="false" />
+            <element signature="e#5222#5366#0" expanded="false" />
+            <element signature="e#5422#5712#0" expanded="false" />
+            <element signature="e#5811#5934#0" expanded="false" />
+            <element signature="e#5949#6121#0" expanded="false" />
+            <element signature="e#6136#6176#0" expanded="false" />
+            <element signature="e#6189#6230#0" expanded="false" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#8351#8357#0" expanded="true" />
+            <element signature="e#8357#8363#0" expanded="true" />
+            <element signature="e#8363#8369#0" expanded="true" />
+            <element signature="e#8369#8375#0" expanded="true" />
+            <element signature="e#8375#8381#0" expanded="true" />
+            <element signature="e#8381#8387#0" expanded="true" />
+            <element signature="e#8387#8393#0" expanded="true" />
+            <element signature="e#8393#8399#0" expanded="true" />
+            <element signature="e#8399#8405#0" expanded="true" />
+            <element signature="e#8405#8411#0" expanded="true" />
+            <element signature="e#8440#8446#0" expanded="true" />
+            <element signature="e#8446#8452#0" expanded="true" />
+            <element signature="e#8452#8458#0" expanded="true" />
+            <element signature="e#8458#8464#0" expanded="true" />
+            <element signature="e#8464#8470#0" expanded="true" />
+            <element signature="e#8470#8476#0" expanded="true" />
+            <element signature="e#8476#8482#0" expanded="true" />
+            <element signature="e#8482#8488#0" expanded="true" />
+            <element signature="e#8488#8494#0" expanded="true" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1491748227024" expanded="true" signature="5367:5712" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HTML+CSS心得.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1291,102 +1334,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task2.html">
+    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/百度前端/小薇学院-12个课/task9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="369" column="1" lean-forward="false" selection-start-line="369" selection-start-column="1" selection-end-line="369" selection-end-column="1" />
-          <folding>
-            <element signature="e#187#296#0" expanded="false" />
-            <element signature="e#311#498#0" expanded="false" />
-            <element signature="e#514#721#0" expanded="false" />
-            <element signature="e#739#782#0" expanded="false" />
-            <element signature="e#807#1310#0" expanded="false" />
-            <element signature="e#1334#1701#0" expanded="false" />
-            <element signature="e#1738#2220#0" expanded="false" />
-            <element signature="e#2263#2300#0" expanded="false" />
-            <element signature="e#2321#2419#0" expanded="false" />
-            <element signature="e#2439#2501#0" expanded="false" />
-            <element signature="e#2517#2639#0" expanded="false" />
-            <element signature="e#2661#2885#0" expanded="false" />
-            <element signature="e#2903#3063#0" expanded="false" />
-            <element signature="e#3082#3207#0" expanded="false" />
-            <element signature="e#3226#3352#0" expanded="false" />
-            <element signature="e#3372#3646#0" expanded="false" />
-            <element signature="e#3666#4004#0" expanded="false" />
-            <element signature="e#4024#4182#0" expanded="false" />
-            <element signature="e#4201#4327#0" expanded="false" />
-            <element signature="e#4348#4568#0" expanded="false" />
-            <element signature="e#4588#4773#0" expanded="false" />
-            <element signature="e#4792#4962#0" expanded="false" />
-            <element signature="e#4987#5026#0" expanded="false" />
-            <element signature="e#5046#5118#0" expanded="false" />
-            <element signature="e#5138#5207#0" expanded="false" />
-            <element signature="e#5222#5366#0" expanded="false" />
-            <element signature="e#5422#5712#0" expanded="false" />
-            <element signature="e#5811#5934#0" expanded="false" />
-            <element signature="e#5949#6121#0" expanded="false" />
-            <element signature="e#6136#6176#0" expanded="false" />
-            <element signature="e#6189#6230#0" expanded="false" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#8351#8357#0" expanded="true" />
-            <element signature="e#8357#8363#0" expanded="true" />
-            <element signature="e#8363#8369#0" expanded="true" />
-            <element signature="e#8369#8375#0" expanded="true" />
-            <element signature="e#8375#8381#0" expanded="true" />
-            <element signature="e#8381#8387#0" expanded="true" />
-            <element signature="e#8387#8393#0" expanded="true" />
-            <element signature="e#8393#8399#0" expanded="true" />
-            <element signature="e#8399#8405#0" expanded="true" />
-            <element signature="e#8405#8411#0" expanded="true" />
-            <element signature="e#8440#8446#0" expanded="true" />
-            <element signature="e#8446#8452#0" expanded="true" />
-            <element signature="e#8452#8458#0" expanded="true" />
-            <element signature="e#8458#8464#0" expanded="true" />
-            <element signature="e#8464#8470#0" expanded="true" />
-            <element signature="e#8470#8476#0" expanded="true" />
-            <element signature="e#8476#8482#0" expanded="true" />
-            <element signature="e#8482#8488#0" expanded="true" />
-            <element signature="e#8488#8494#0" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1491748227024" expanded="true" signature="5367:5712" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/任务一：零基础JavaScript编码（一）.md">
+    <entry file="file://$PROJECT_DIR$/javascript心得.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1302">
-            <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <first_editor relative-caret-position="639">
+            <caret line="95" column="9" lean-forward="false" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
             <folding>
-              <marker date="1491750492159" expanded="true" signature="646:742" ph="{...}" />
-              <marker date="1491750492159" expanded="true" signature="650:739" ph="/*...*/" />
+              <marker date="1491804720548" expanded="true" signature="586:1742" ph="..." />
+              <marker date="1491804720548" expanded="true" signature="623:706" ph="..." />
+              <marker date="1491804720548" expanded="true" signature="633:698" ph="..." />
+              <marker date="1491804720548" expanded="true" signature="777:1733" ph="..." />
+              <marker date="1491804720548" expanded="true" signature="798:925" ph="[...]" />
+              <marker date="1491804720548" expanded="true" signature="949:1723" ph="{...}" />
+              <marker date="1491804720548" expanded="true" signature="960:1061" ph="/*...*/" />
+              <marker date="1491804720548" expanded="true" signature="1179:1290" ph="{...}" />
+              <marker date="1491804720548" expanded="true" signature="1220:1280" ph="{...}" />
+              <marker date="1491804720548" expanded="true" signature="1396:1717" ph="{...}" />
+              <marker date="1491804720548" expanded="true" signature="1488:1707" ph="{...}" />
+              <marker date="1491804720548" expanded="true" signature="1827:2148" ph="{...}" />
+              <marker date="1491804720548" expanded="true" signature="1919:2138" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/百度前端/斌斌学院-9个课程/task1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="34" column="62" lean-forward="false" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>

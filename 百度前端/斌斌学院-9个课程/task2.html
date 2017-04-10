@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务二：零基础JavaScript编码（二）</title>
+</head>
+<body>
+
+
+<h3>污染城市列表</h3>
+<ul id="aqi-list">
+    <!--
+        <li>第一名：福州（样例），10</li>
+          <li>第二名：福州（样例），10</li> -->
+</ul>
+<button onclick="task2()">添加</button>
+
+<script type="text/javascript">
+
+    var aqiData = [
+        ["北京", 90],
+        ["上海", 50],
+        ["福州", 10],
+        ["广州", 50],
+        ["成都", 90],
+        ["西安", 100]
+    ];
+
+    function task2() {
+
+        /*
+         在注释下方编写代码
+         遍历读取aqiData中各个城市的数据
+         将空气质量指数大于60的城市显示到aqi-list的列表中
+         */
+
+//        新建一个数组
+        var answer = [];
+//        用for循环，读取aqidata,然后符合条件的元素写入新数组里
+        for (index in aqiData ){
+            if (aqiData[index][1] >60) {
+                answer.push(aqiData[index]);
+            }
+        }
+        display(answer,"aqi-list");
+
+//        获得数组长度，然后动态添加ul中的li节点
+
+        function display(array,id) {
+            var ul = document.getElementById(id);
+            for (i=0;i<array.length;i++){
+                var li = document.createElement("li");
+                var num = i+1;
+                li.innerHTML =  "第"+ num + "名:" + array[i][0] +"," + array[i][1];
+                ul.appendChild(li);
+            }
+            
+        }
+    }
+
+</script>
+
+</body>
+</html>
