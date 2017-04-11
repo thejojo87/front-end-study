@@ -189,3 +189,34 @@ sort 后面可以添加函数。
     }
 ```
 
+## 9. javascript 应该放在哪里？
+
+head？body？
+
+head 部分中的脚本: 需调用才执行的脚本或事件触发执行的脚本放在HTML的head部分中。当你把脚本放在head部分中时，可以保证脚本在任何调用之前被加载。
+body 部分中的脚本: 当页面被加载时执行的脚本放在HTML的body部分。放在body部分的脚本通常被用来生成页面的内容。
+
+放在head的时候，并没有执行init程序，按钮的onclick都没有执行，当然没反应了。
+
+
+## 10. 如何插入ul下面li元素的第一个元素前面？
+
+insertBefore()方法。
+node.insertBefore(newnode,existingnode)
+
+```javascript
+//    先判断是左边还是右边，然后寻找ul，然后appendChildNode
+    function addNum(value,leftOrRight) {
+        var ul = document.getElementById("answer");
+        var li = document.createElement("li");
+        li.innerHTML = value;
+        if (leftOrRight == 1){
+            alert("left");
+            ul.appendChild(li);
+        }else {
+            ul.insertBefore(li, ul.childNodes[0]);
+        }
+    }
+```
+
+## 11. 不知道为什么，ul删除节点，反应很迟钝

@@ -843,5 +843,20 @@ checkbox 加上元素选择让我吃尽了苦头。
 
 https://segmentfault.com/a/1190000003062025
 
+## 44. div里元素间距如何决定？
+
+首先在div，设置text-align-center。
+然后在元素，margin-设置50px
+
+## 45. 为什么div或者li有着40px的左边空隙？
+
+        *{
+            padding:0;
+            margin:0;}
+
+
+## 46.li怎么做导航栏？
+
+http://www.w3cn.org/article/tips/2005/105.html
 
 

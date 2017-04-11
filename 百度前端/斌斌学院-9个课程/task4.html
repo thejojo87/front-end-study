@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        *{
+            padding:0;
+            margin:0;}
+        #in{
+            width: 200px;
+            height: 30px;
+            margin-left: calc(50% - 100px);
+            margin-top: 10%;
+            background-color: #ffcc00;
+        }
+        .manipulate{
+            background-color: #418c59;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            /*padding: 50px;*/
+
+        }
+        .manipulate button{
+            width: 200px;
+            height: 70px;
+            font-family: 微软雅黑;
+            color: #FF0000;
+            font-size: 30px;
+            background-color: #FFFFFF;
+            margin: 50px;
+        }
+        .manipulate ul{
+            padding:0;
+            width: 100%;
+            margin:0;
+            /*margin:0 auto;*/
+        }
+        .manipulate li{
+            display:inline;
+            background-color: #cc8091;
+            height:60px;
+            /*width: 100px;*/
+            font-size: 20px;
+            list-style: none;
+            /*float: left;*/
+            margin: 50px;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<input id="in" placeholder="请输入一个不为空的数字">
+<div class="manipulate">
+    <button id="left-in">左侧入</button>
+    <button id="right-in">右侧入</button>
+    <button id="left-out">左侧出</button>
+    <button id="right-out">右侧出</button>
+
+    <ul id="answer">
+        <!--<li>1</li>-->
+        <!--<li>2</li>-->
+        <!--<li>3</li>-->
+        <!--<li>4</li>-->
+        <!--<li>5</li>-->
+    </ul>
+
+</div>
+
+
+<script type="text/javascript">
+
+    function testNumber(num) {
+//        alert("开始了");
+        var value = document.getElementById("in").value;
+//        验证value 为数字
+        if( value == "" ){
+            alert("输入不能为空，请重新输入数字");
+        }else if (!isNaN(value)){
+//            alert("这是数字，马上为您插入");
+            addNum(value,num);
+        }else {
+            alert("不是数字，请重新输入");
+        }
+    }
+
+//    先判断是左边还是右边，然后寻找ul，然后appendChildNode
+    function addNum(value,leftOrRight) {
+        var ul = document.getElementById("answer");
+        var li = document.createElement("li");
+        li.innerHTML = value;
+        if (leftOrRight == 0){
+            ul.appendChild(li);
+        }else {
+            ul.insertBefore(li, ul.childNodes[0]);
+        }
+    }
+//      删除函数
+    function deleteNumber(leftOrRight) {
+//        var ul = document.getElementById("answer");
+        if (leftOrRight == 1){
+            var ul = document.getElementById("answer");
+            ul.firstChild.remove();
+//            ul.removeChild(ul.firstChild);
+        }else {
+            var ul = document.getElementById("answer");
+            ul.lastChild.remove();
+        }
+    }
+
+    function init() {
+//        左侧插入
+        var btnleftin = document.getElementById("left-in");
+        btnleftin.onclick = function () {
+            testNumber(1);
+        };
+//        右侧插入
+        var btnrightin = document.getElementById("right-in");
+        btnrightin.onclick = function () {
+            testNumber(0);
+        };
+//        左侧删除
+        var btnleftout = document.getElementById("left-out");
+        btnleftout.onclick = function () {
+            deleteNumber(1);
+        };
+
+//        右侧删除
+        var btnrightout = document.getElementById("right-out");
+        btnrightout.onclick = function () {
+            deleteNumber(0);
+        };
+
+    }
+
+    init()
+</script>
+</body>
+</html>
