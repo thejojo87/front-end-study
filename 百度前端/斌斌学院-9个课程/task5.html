@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        *{
+            padding:0;
+            margin:0;}
+        #in{
+            width: 200px;
+            height: 30px;
+            margin-left: calc(50% - 100px);
+            margin-top: 10%;
+            background-color: #ffcc00;
+        }
+        .manipulate{
+            background-color: #418c59;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            /*padding: 50px;*/
+        }
+        .display{
+            background-color: #75b86b;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+        }
+        .manipulate button{
+            width: 200px;
+            height: 70px;
+            font-family: 微软雅黑;
+            color: #FF0000;
+            font-size: 30px;
+            background-color: #FFFFFF;
+            margin: 50px;
+        }
+        .manipulate ul{
+            padding:0;
+            width: 100%;
+            margin:0;
+            /*margin:0 auto;*/
+        }
+        .manipulate li{
+            display:inline;
+            background-color: #cc8091;
+            height:60px;
+            /*width: 100px;*/
+            font-size: 20px;
+            list-style: none;
+            /*float: left;*/
+            margin: 50px;
+        }
+        .display ul{
+            padding-top: 50px;
+            height: 200px;
+        }
+        .display li{
+            background-size: 300px;
+            float: left;
+            margin:4px;
+            list-style: none;
+            background-color: yellowgreen;
+            text-decoration:none; /* 去掉下划线 */
+        }
+        .display div{
+            background-color: #FF0000;
+            float: left;
+            position: relative;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+<input id="in" placeholder="请输入一个10-100内的数字">
+<div class="manipulate">
+    <button id="left-in">左侧入</button>
+    <button id="right-in">右侧入</button>
+    <button id="left-out">左侧出</button>
+    <button id="right-out">右侧出</button>
+    <button id="sort">快速排序</button>
+
+    <ul id="answer">
+
+    </ul>
+
+</div>
+
+<div class="display">
+    <ul id="answer2">
+
+    </ul>
+
+</div>
+
+
+<script type="text/javascript">
+
+    var state = [];
+
+    function testNumber(num) {
+        var value = document.getElementById("in").value;
+//        验证value 为数字
+        if (value ==""){
+            alert("输入不能为空，请重新输入数字");
+        }else if (isNaN(value)){
+            alert("不是数字，请重新输入");
+        }else if ((!isNaN(value)&&(value<10))||(!isNaN(value)&&(value>100))){
+            alert("请输入10和100以内的数字");
+        }else {
+            addNum(value,num);
+        }
+    }
+
+    //    先判断是左边还是右边，然后寻找ul，然后appendChildNode
+    function addNum(value,leftOrRight) {
+        var ul = document.getElementById("answer");
+        var li = document.createElement("li");
+        li.innerHTML = value;
+
+
+        var ulDisplay = document.getElementById("answer2");
+        var liDisplay = document.createElement("div");
+        liDisplay.innerHTML = value  ;
+        liDisplay.style.height = value + "px";
+        liDisplay.style.top = (101 - value) + "px";
+//        alert(typeof li.value);
+
+        if (ul.childNodes.length>=60){
+            alert("队列不能超过60个元素");
+        }else if (leftOrRight == 0){
+            ul.appendChild(li);
+            ulDisplay.appendChild(liDisplay);
+        }else {
+            ul.insertBefore(li, ul.childNodes[0]);
+            ulDisplay.insertBefore(liDisplay,ulDisplay.childNodes[0]);
+        }
+    }
+    //      删除函数
+    function deleteNumber(leftOrRight) {
+        var ul = document.getElementById("answer");
+        var ulDisplay = document.getElementById("answer2");
+        if (leftOrRight == 1){
+            ul.firstChild.remove();
+            ulDisplay.firstChild.remove();
+        }else {
+            ul.lastChild.remove();
+            ulDisplay.lastChild.remove();
+        }
+    }
+
+
+    //        可视化表达
+    var draw = function() {
+        var s;
+        s = state.shift();
+        if(s!== undefined){
+            var ulDisplay = document.getElementById("answer2");
+            var lis = ulDisplay.getElementsByTagName('div');
+            for(var m = 0; m <s.length; m++){
+                lis.item(m).innerHTML = s[m];
+                var dataDiv =ulDisplay.querySelectorAll("div");
+                dataDiv[m].style.height = s[m] + "px";
+                dataDiv[m].style.top = (101 - s[m]) + "px";
+            }
+        }else{
+            window.clearInterval(inter);
+        }
+    };
+//    排序-获取li元素，存进一个数组里，然后排序，
+    function sort() {
+        var ul = document.getElementById("answer");
+        lis = ul.getElementsByTagName('li');
+
+        var arr = [];
+//        alert(lis.length);
+        for(var i=0;i<lis.length;i++){
+            arr.push(lis.item(i).innerHTML);
+        }
+        sortNum(arr);
+        inter = setInterval(draw,500);
+    }
+    // 冒泡排序
+    function sortNum(arr){
+        var i, j, temp;
+        for (i = 0; i < arr.length - 1; i++)
+            for (j = 0; j < arr.length - 1 - i; j++)
+                if (arr[j] > arr[j + 1]) {
+                    temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    state.push(JSON.parse(JSON.stringify(arr)));
+                }
+        return arr;
+    }
+
+    // 快速排序算法
+    function quickSort(arr) {
+        if (arr.length <= 1){return arr;}
+        var pivotIndex = Math.floor(arr.length /2);
+        var pivot = arr.splice(pivotIndex,1)[0];
+        var left = [];
+        var right = [];
+        for (var i = 0;i< arr.length;i++){
+            if (arr[i] < pivot){
+                left.push(arr[i]);
+            }else {
+                right.push(arr[i]);
+            }
+        }
+        return quickSort(left).concat([pivot],quickSort(right));
+    }
+
+    function init() {
+//        左侧插入
+        var btnleftin = document.getElementById("left-in");
+        btnleftin.onclick = function () {
+            testNumber(1);
+        };
+//        右侧插入
+        var btnrightin = document.getElementById("right-in");
+        btnrightin.onclick = function () {
+            testNumber(0);
+        };
+//        左侧删除
+        var btnleftout = document.getElementById("left-out");
+        btnleftout.onclick = function () {
+            deleteNumber(1);
+        };
+
+//        右侧删除
+        var btnrightout = document.getElementById("right-out");
+        btnrightout.onclick = function () {
+            deleteNumber(0);
+        };
+
+//      快速排序,获取li元素，存进一个数组里，然后排序，
+        var  sortButton = document.getElementById("sort");
+        sortButton.onclick = function () {
+            sort();
+        };
+    }
+
+    init()
+</script>
+</body>
+</html>

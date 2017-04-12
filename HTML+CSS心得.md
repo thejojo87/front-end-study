@@ -860,3 +860,26 @@ https://segmentfault.com/a/1190000003062025
 http://www.w3cn.org/article/tips/2005/105.html
 
 
+## 47.想做个柱状图，div并列底部对齐怎么做？
+
+```css
+        .display div{
+            background-color: #FF0000;
+            float: left;
+            position: relative;
+        }
+        
+        <div style="height: 10px; top: 91px;">10</div>
+       
+```
+
+```javascript
+        var ulDisplay = document.getElementById("answer2");
+        var liDisplay = document.createElement("div");
+        liDisplay.innerHTML = value  ;
+        liDisplay.style.height = value + "px";
+        liDisplay.style.top = (101 - value) + "px";
+```
+
+用这个js，生成这个div代码，代码的css在最上面。
+
