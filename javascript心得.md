@@ -261,3 +261,25 @@ http://www.ruanyifeng.com/blog/2011/04/quicksort_in_javascript.html
     };
 
 ```
+
+## 13.li节点值？
+
+```javascript
+    //        可视化表达
+    var draw = function() {
+        var s;
+        s = state.shift();
+        if(s!== undefined){
+            var ulDisplay = document.getElementById("answer2");
+            var lis = ulDisplay.getElementsByTagName('div');
+            for(var m = 0; m <s.length; m++){
+                lis.item(m).innerHTML = s[m];
+                var dataDiv =ulDisplay.querySelectorAll("div");
+                dataDiv[m].style.height = s[m] + "px";
+                dataDiv[m].style.top = (101 - s[m]) + "px";
+            }
+        }else{
+            window.clearInterval(inter);
+        }
+    };
+```

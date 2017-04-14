@@ -41,3 +41,11 @@
 我觉得快速排序，需要把数组分为两个部分，并且，新建两个数组，不合适。
 
 冒泡排序比较方便展示。
+网上找到的冒泡排序不知道哪里有错，有bug，
+最后使用wiki里的冒泡排序算法才成功。
+
+http://www.jianshu.com/p/eb8d8be4c51b
+
+https://www.zhihu.com/question/41642706
+
+http://www.ruanyifeng.com/blog/2011/04/quicksort_in_javascript.html

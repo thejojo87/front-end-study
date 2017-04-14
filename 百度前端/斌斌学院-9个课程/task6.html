@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        *{
+            padding:0;
+            margin:0;}
+        #in{
+            width: 600px;
+            height: 100px;
+            margin-left: calc(50% - 300px);
+            margin-top: 10%;
+            background-color: #ffcc00;
+            text-align: center;
+        }
+        #search{
+            width: 600px;
+            height:100px;
+            margin-left: calc(50% - 300px);
+            background-color: yellow;
+            text-align: center;
+        }
+        .manipulate{
+            background-color: #418c59;
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            /*padding: 50px;*/
+
+        }
+        .manipulate button,#search-in{
+            width: 200px;
+            height: 70px;
+            font-family: 微软雅黑;
+            color: #FF0000;
+            font-size: 30px;
+            background-color: #FFFFFF;
+            margin: 50px;
+        }
+        .manipulate ul{
+            padding:0;
+            width: 100%;
+            margin:0;
+            /*margin:0 auto;*/
+        }
+        .manipulate li{
+            display:inline;
+            background-color: #cc8091;
+            height:60px;
+            /*width: 100px;*/
+            font-size: 20px;
+            list-style: none;
+            /*float: left;*/
+            margin: 50px;
+        }
+        .select{
+            font-family: 微软雅黑;
+            color: #FF0000;
+            font-size: 30px;
+            background-color: #FFFFFF;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<textarea id="in"  name="thinkcss" cols="30" rows="4" placeholder="测试一下">
+</textarea>
+<br>
+
+<input id="search" placeholder="请输入一个不为空的数字">
+<button id="search-in">搜索</button>
+
+<div class="manipulate">
+    <button id="left-in">左侧入</button>
+    <button id="right-in">右侧入</button>
+    <button id="left-out">左侧出</button>
+    <button id="right-out">右侧出</button>
+    <!--<button id="search-in">搜索</button>-->
+
+    <ul id="answer">
+
+    </ul>
+
+</div>
+
+
+<script type="text/javascript">
+
+    function testNumber(num) {
+//        alert("开始了");
+        var value = document.getElementById("in").value;
+//        验证value 为数字
+        if( value == "" ){
+            alert("输入不能为空，请重新输入");
+        }else {
+//            alert("这是数字，马上为您插入");
+            addNum(value,num);
+        }
+    }
+
+    function cutString(value) {
+//        alert("切割开始了");
+        var arrWord = value.split(/[\s\n\r\，\,\、\t\ ]/);
+        for (var i = 0;i<arrWord.length;i++){
+            if(arrWord[i]==""||typeof (arrWord[i])=="undefined"){
+                arrWord[i].splice(i,1);
+                i--;
+            }
+        }
+        number = arrWord;
+    }
+
+    //    先判断是左边还是右边，然后寻找ul，然后appendChildNode
+    function addNum(value,leftOrRight) {
+        cutString(value);
+        for (i=0;i<number.length;i++){
+
+            var ul = document.getElementById("answer");
+            var li = document.createElement("li");
+            li.innerHTML = number[i];
+            if (leftOrRight == 0){
+                ul.appendChild(li);
+            }else {
+                ul.insertBefore(li, ul.childNodes[0]);
+            }
+        }
+    }
+    //      删除函数
+    function deleteNumber(leftOrRight) {
+//        var ul = document.getElementById("answer");
+        if (leftOrRight == 1){
+            var ul = document.getElementById("answer");
+            ul.firstChild.remove();
+//            ul.removeChild(ul.firstChild);
+        }else {
+            var ul = document.getElementById("answer");
+            ul.lastChild.remove();
+        }
+    }
+
+    function searchNumber(){
+        var value = document.getElementById("search").value;
+//        验证value 为数字
+        if( value == "" ){
+            alert("搜索不能为空，请重新输入");
+        }else if(number.length == 0) {
+            alert("请先插入再搜索");
+//            addNum(value,num);
+        }else{
+//            应该获取所有li标签的值
+                var ulDisplay = document.getElementById("answer");
+                var lis = ulDisplay.getElementsByTagName('li');
+                for(var m = 0; m <lis.length; m++){
+                    if(lis.item(m).innerHTML.match(value)!=null){
+                        var str = lis.item(m).innerText;
+                        str = str.replace(new RegExp(value, "g"),"<a class='select'>" +value + "</a>");
+                        lis.item(m).innerHTML = str;
+                    }
+                }
+        }
+    }
+
+    function init() {
+        number = [];
+        var btnSearch = document.getElementById("search-in");
+        btnSearch.onclick = function () {
+            searchNumber();
+        };
+
+        //        左侧插入
+        var btnleftin = document.getElementById("left-in");
+        btnleftin.onclick = function () {
+            testNumber(1);
+        };
+//        右侧插入
+        var btnrightin = document.getElementById("right-in");
+        btnrightin.onclick = function () {
+            testNumber(0);
+        };
+//        左侧删除
+        var btnleftout = document.getElementById("left-out");
+        btnleftout.onclick = function () {
+            deleteNumber(1);
+        };
+
+//        右侧删除
+        var btnrightout = document.getElementById("right-out");
+        btnrightout.onclick = function () {
+            deleteNumber(0);
+        };
+
+    }
+
+    init()
+</script>
+</body>
+</html>
