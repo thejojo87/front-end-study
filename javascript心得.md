@@ -283,3 +283,25 @@ http://www.ruanyifeng.com/blog/2011/04/quicksort_in_javascript.html
         }
     };
 ```
+
+## 14. 除了alert，输出变量有什么？
+
+console.log(display.innerHTML);
+这个很好。
+
+## 15. 如何结合for循环和时间间隔呢？
+
+http://stackoverflow.com/questions/24293376/javascript-for-loop-with-timeout
+
+ ```javascript
+ var i = 0
+ var id = window.setInterval(function(){
+     if(i >= 10) {
+         clearInterval(id);
+         return;
+     }
+ 
+     console.log(i);
+     i++;
+ }, 1000)
+ ``````

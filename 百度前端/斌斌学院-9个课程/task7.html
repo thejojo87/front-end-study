@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务七：JavaScript和树（一）</title>
+    <style type="text/css">
+        body{
+            padding: 0;
+            margin:0;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+        .main{
+            background-color: #75b86b;
+            width: 100%;
+            height: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0;
+            /*align-items: flex-end;*/
+            /*justify-content: space-between;*/
+        }
+        .tree{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFFFF;
+            border: 5px solid #FF0000;
+            width: 50%;
+            height: 90%;
+            margin:10px;
+            /*!*!*margin-top: 50px;*!*!*/
+            /*padding: 30px;*/
+        }
+        header{
+            background-color: #ffcc00;
+            width: 100%;
+            height:20%;
+        }
+        button{
+            width: 200px;
+            height: 70px;
+            font-family: 微软雅黑;
+            color: #FF0000;
+            font-size: 30px;
+            background-color: #FFFFFF;
+            margin: 50px;
+
+        }
+        #tree{
+            width: 300px;
+            height:100px;
+            margin-left: calc(30% - 250px);
+            background-color: #FFFFFF;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <input id="tree" placeholder="请输入小于6的数字，生成二叉树">
+    <button id="tree-create">生成二叉树</button>
+
+    <button id="tree-start">前序遍历</button>
+</header>
+
+<div class="main" id="main">
+
+
+</div>
+
+<script type="text/javascript">
+
+    function createTree() {
+        var value = document.getElementById("tree").value;
+        var display = document.getElementById("main");
+        display.innerHTML = "";
+        create(value);
+    }
+
+    //        可视化表达
+    var draw = function() {
+        var ulDisplay = document.getElementById("main");
+        var lis = ulDisplay.getElementsByTagName('div');
+        console.log(lis.length);
+        var i = 0;
+        var id = window.setInterval(function () {
+            createTree();
+            if (i>=lis.length){
+                clearInterval(id);
+                return;
+            }
+            console.log(i);
+
+            newstr = lis[i].outerHTML;
+            var str = "<div class='tree' style='background-color: cornflowerblue'>"  + lis[i].innerHTML + "</div>";
+            lis[i].outerHTML = str;
+            i++;
+        } ,500);
+
+//            lis[i].outerHTML = newstr;
+    };
+
+//    遍历还需要
+    function treeStart() {
+
+        console.log("遍历开始了");
+        draw();
+//        inter = setInterval(draw,500);
+
+    }
+
+    function create(value) {
+
+//      思路就是，如果是1，那么在main下面直接生成代码。如果大于1，那么main下面的代码复制过来，然后在生成两个div，然后赋值。
+        if (value == 0){
+//            alert("生成结束了");
+        }else {
+            var display = document.getElementById("main");
+            var article = display.innerHTML;
+            display.innerHTML = "<div class='tree'>" + article + "</div><div class='tree'>" + article + "</div>";
+            console.log(display.innerHTML);
+            create(--value);
+        }
+    }
+
+    function init() {
+        //        制造二叉树
+        var btnTreeCreate = document.getElementById("tree-create");
+        btnTreeCreate.onclick = function () {
+            createTree();
+        };
+        //        前序遍历 -中-左右
+        var treestart = document.getElementById("tree-start");
+        treestart.onclick = function () {
+            treeStart();
+        };
+    }
+
+    init()
+</script>
+</body>
+</html>
