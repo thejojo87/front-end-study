@@ -896,4 +896,10 @@ http://www.w3cn.org/article/tips/2005/105.html
 
 ```javascript
 <p style="color: #39f;">在HTML中使用CSS之内联式</p>
-``````
+```
+
+
+## 50. webstorm的快捷键
+
+http://www.imooc.com/article/12498?block_id=tuijian_wz
+

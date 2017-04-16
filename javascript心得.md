@@ -305,3 +305,52 @@ http://stackoverflow.com/questions/24293376/javascript-for-loop-with-timeout
      i++;
  }, 1000)
  ``````
+ 
+ ## 16. 二叉树遍历怎么搞？
+ 
+ https://segmentfault.com/a/1190000000740261
+ 
+ ## 17.如何生成随机正整数？
+ 
+ 从1到4的正整数。
+ https://segmentfault.com/a/1190000002972940
+ 
+```javascript
+function getRandom(n,m){
+  //省略特殊情形下的处理过程，比如n>m，或者n、m之一无法转化为有效数字；
+  return Math.round(Math.random()*(m-n)+n);
+}
+```
+ ## 18.如何生成随机字符串？
+ 
+ http://bayescafe.com/webfrontend/generate-random-string-in-javascript.html
+ 
+ ```javascript
+function generateUIDNotMoreThan1million() {
+    return ("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4)
+}
+```
+
+## 19. 给所有div元素，增加值
+
+ ```javascript
+            console.log("生成结束了");
+            var display = document.getElementById("main");
+            var dataDiv = display.getElementsByTagName("div");
+            console.log(dataDiv.length);
+            for(i=0;i<dataDiv.length;i++){
+                console.log(i);
+                console.log(dataDiv);
+                dataDiv[i].innerHTML = randamStr() + dataDiv[i].innerHTML;
+            } 
+```
+
+## 20. javascript 复制
+ 
+ https://www.zhihu.com/question/23031215
+ 
+ 字符串复制是可以的。
+ 但是很多时候却只是地址引用。
+ 如何能真正复制呢？
+ 数字、字符串是把值直接复制进去了，而数组、对象是把变量地址复制进去的。
+ 
