@@ -353,4 +353,17 @@ function generateUIDNotMoreThan1million() {
  但是很多时候却只是地址引用。
  如何能真正复制呢？
  数字、字符串是把值直接复制进去了，而数组、对象是把变量地址复制进去的。
+
  
+ ## 21. hover叠加的时候如何只选择子元素，而不是父元素？
+ 
+ ```javascript
+<div class = "tree">
+        <div class = "tree">
+        
+         </div>
+ </div>
+```
+
+在这段代码里，我如果hover .tree 的话，鼠标与东到子元素的时候，父元素也跟着改变。
+如何只改变子元素呢？

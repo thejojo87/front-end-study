@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务七：JavaScript和树（2）</title>
+    <style type="text/css">
+        body{
+            padding: 0;
+            margin:0;
+            height: 100%;
+        }
+        html{
+            height: 100%;
+        }
+        .main{
+            background-color: #75b86b;
+            width: 100%;
+            height: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0;
+            /*align-items: flex-end;*/
+            /*justify-content: space-between;*/
+        }
+        .tree{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFFFF;
+            border: 5px solid #FF0000;
+            width: 50%;
+            height: 90%;
+            margin:10px;
+            /*!*!*margin-top: 50px;*!*!*/
+            /*padding: 30px;*/
+        }
+        .tree:hover{
+            /*background-color: #FF0000;*/
+        }
+        /*.tree:hover:root{*/
+            /*background-color: #ffcc00;*/
+        /*}*/
+        header{
+            display: flex;
+            background-color: #ffcc00;
+            width: 100%;
+            height:30%;
+        }
+        button{
+            width: 200px;
+            height: 70px;
+            font-family: 微软雅黑;
+            color: #FF0000;
+            font-size: 20px;
+            background-color: #FFFFFF;
+            margin: 50px;
+
+        }
+        input{
+            width: 300px;
+            height:100px;
+            /*margin-left: calc(30% - 250px);*/
+            background-color: #FFFFFF;
+            text-align: center;
+            /*align-items: center;*/
+            justify-content: center;
+            margin: 50px;
+        }
+        .select{
+            font-family: 微软雅黑;
+            color: #FF0000;
+            font-size: 30px;
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <input id="tree" placeholder="请输入小于6的数字，生成树">
+    <button id="tree-create">生成树</button>
+
+    <button id="tree-start">前序遍历</button>
+    <button id="search">查询</button>
+    <button id="delete">删除</button>
+    <button id="insert">插入</button>
+    <input id="searchinput" placeholder="请输入要查询的文字">
+    <input id="insertInput" placeholder="请输入要增加的文字">
+</header>
+
+<div class="main" id="main">
+
+
+</div>
+
+<script type="text/javascript">
+
+    function createTree() {
+        var value = document.getElementById("tree").value;
+        var display = document.getElementById("main");
+        display.innerHTML = "";
+        create(value);
+    }
+
+    //        可视化表达
+    var draw = function() {
+        var ulDisplay = document.getElementById("main");
+        var lis = ulDisplay.getElementsByTagName('div');
+        var i = 0;
+        var id = window.setInterval(function () {
+            if (i>=1){
+                lis[i-1].outerHTML= newstr;
+            }
+            if (i>=lis.length){
+                clearInterval(id);
+                return;
+            }
+            var str = "<div class='tree' style='background-color: cornflowerblue'>"  + lis[i].innerHTML + "</div>";
+            newstr = "<div class='tree'> " + lis[i].innerHTML + "</div>";
+            lis[i].outerHTML = str;
+            i++;
+        } ,500);
+    };
+
+    //    遍历还需要
+    function treeStart() {
+        draw();
+    }
+
+    // 查询
+    function searchStart() {
+        var searchValue = document.getElementById("searchinput").value;
+        var ulDisplay = document.getElementById("main");
+        var lis = ulDisplay.getElementsByTagName('div');
+        var i = 0;
+        if (searchValue == ""){
+            alert("请输入");
+
+        }else{
+            console.log("search开始了");
+            var id = window.setInterval(function () {
+                if (i>=1){
+                    lis[i-1].outerHTML= newstr2;
+                }
+                if (i>=lis.length){
+                    clearInterval(id);
+                    return;
+                }
+
+                var str = "<div class='tree' style='background-color: cornflowerblue'>"  + lis[i].innerHTML + "</div>";
+                console.log(searchValue);
+                newstr2 = "";
+                str2 = "";
+                if (lis[i].innerHTML.match(searchValue)!=null){
+                    newstr2 = "<div class='tree'> " + lis[i].innerHTML.replace(new RegExp(searchValue, "g"),"<a class='select'>" +searchValue + "</a>") + "</div>";
+                }else{
+                    newstr2 = "<div class='tree'> " + lis[i].innerHTML + "</div>";
+                }
+                lis[i].outerHTML = str;
+                i++;
+            } ,500);
+        }
+    }
+
+    function create(value) {
+
+//      思路就是，如果是1，那么在main下面直接生成代码。如果大于1，那么main下面的代码复制过来，然后在生成两个div，然后赋值。
+        if (value == 0){
+            var display = document.getElementById("main");
+            var dataDiv = display.getElementsByTagName("div");
+            for(i=0;i<dataDiv.length;i++){
+                dataDiv[i].innerHTML = randamStr() + dataDiv[i].innerHTML;
+            }
+//
+
+        }else {
+            var display = document.getElementById("main");
+            var article = display.innerHTML;
+            var c = Math.round(Math.random()*(3-1)+1);
+
+            switch(c)
+            {
+                case 1:
+//                    var str = ("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4);
+
+                    display.innerHTML = "<div class='tree'>" + article + "</div>";
+                    break;
+                case 2:
+                    display.innerHTML = "<div class='tree'>" + article + "</div><div class='tree'>" + article + "</div>";
+                    break;
+                default:
+                    display.innerHTML = "<div class='tree'>"  + article + "</div><div class='tree'>"  + article + "</div><div class='tree'>" + article + "</div>";
+            }
+            create(--value);
+        }
+    }
+
+    function randamStr() {
+        return ("0000" + (Math.random()*Math.pow(36,4) << 0).toString(36)).slice(-4)
+    }
+
+    function init() {
+        //        制造二叉树
+        var btnTreeCreate = document.getElementById("tree-create");
+        btnTreeCreate.onclick = function () {
+            createTree();
+        };
+        //        前序遍历 -中-左右
+        var treestart = document.getElementById("tree-start");
+        treestart.onclick = function () {
+            treeStart();
+        };
+        // 查询
+        var search = document.getElementById("search");
+        search.onclick = function () {
+            searchStart();
+        };
+
+        document.getElementById("main").addEventListener("click",function (e) {
+            var target = e.target;
+
+            if(target.className!="tree") return;
+
+            target.style.backgroundColor="#caf";
+            console.log(target.style.backgroundColor);
+
+            document.getElementById("delete").onclick = function () {
+                target.parentNode.removeChild(target);
+            }
+            document.getElementById("insert").onclick = function () {
+                var insertValue = document.getElementById("insertInput").value;
+                var content = target.innerHTML;
+                target.innerHTML = content + "<div class='tree'>" + insertValue + "</div>"
+            }
+
+        })
+    }
+
+    init()
+</script>
+</body>
+</html>
