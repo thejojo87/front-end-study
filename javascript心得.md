@@ -367,3 +367,39 @@ function generateUIDNotMoreThan1million() {
 
 在这段代码里，我如果hover .tree 的话，鼠标与东到子元素的时候，父元素也跟着改变。
 如何只改变子元素呢？
+
+
+## 22. javascript 正则表达式
+
+正则表达式可以用下面两种方式创建。
+
+http://imweb.io/topic/56e804ef1a5f05dc50643106
+
+
+```javascript
+var pattern1 = /s$/;
+var pattern2 = new RegExp('s$');
+if(!/^[a-zA-Z0-9\u4e00-\u9fa5]+$/.test(input.value)){}
+```
+
+正则表达式貌似是 // 里面。
+然后是^符号，这个是匹配字符串的开头，在多行检索中，匹配一行的开头
+这个符号如果在[]内，就表示，非。
+然后是[...]  方括号内任意字符
+[^...] 不在方括号内的任意字符
+开头，可以是[]内数字或者英文文字，或者中文。
++ 是重复符号。匹配前一项1次或多次，等价于{1,}
+
+然后是$结尾。
+
+test是一个方法
+test() 	参数：字符串。返回true or false
+
+
+```javascript
+var regu =/^[1][3][0-9]...{9}$/;
+var re = new RegExp(regu);
+return re.test(s);
+```
+
+
