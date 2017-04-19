@@ -402,4 +402,34 @@ var re = new RegExp(regu);
 return re.test(s);
 ```
 
+## 23. 添加监听事件
 
+```javascript
+    function city() {
+        alert("ceshi ");
+    }
+    function init() {
+        document.getElementById("city").addEventListener("change",city);
+    }
+```
+
+## 24. 怎么才能获得selected事件？
+
+```javascript
+        var cityValue = document.getElementById("city");
+        var value = cityValue.getElementsByTagName("option");
+        if(value[2].selected){
+            console.log("第二个被抓住了");
+        }
+```
+
+## 25. 创建数组队列
+
+```javascript
+        data=[
+            ["北京大学","清华大学","中国人民大学","北京师范大学"],
+            ["复旦大学","上海交通大学","同济大学","华东师范大学"],
+            ["武汉大学","华中科技大学","华中农业大学","武汉理工大学"],
+            ["西安交通大学","西北大学","西北工业大学","陕西师范大学"]
+        ];
+```

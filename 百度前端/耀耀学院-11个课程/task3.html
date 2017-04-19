@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务三：表单（三）联动</title>
+    <style>
+        form{
+            margin:0 auto;
+            width: 80%;
+            text-align: center;
+            margin-top: 200px;
+            background-color: #ffcc00;
+            /*padding: 50px;*/
+
+        }
+        label{
+            font-size: 40px;
+            color: #FF0000;
+            float: left;
+        }
+        .radio{
+            float: left;
+        }
+        .second{
+            display: none;
+            float: left;
+            margin-top: 100px;
+        }
+        .zero{
+            width: 100%;
+            height: 50px;
+            background-color: #cd4a48;
+
+            /*padding-left: 30%;*/
+            /*float: left;*/
+            /*text-align: center;*/
+
+        }
+        .first{
+
+            width: 100%;
+            background-color: #993342;
+            float: left;
+            margin-top: 200px;
+            /*padding-right: 300px;*/
+        }
+        .first label{
+            float: left;
+        }
+        .first select{
+            /*float: right;*/
+            /*padding: 30px;*/
+        }
+        select{
+            height: 50px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <div class="zero">
+<input class="radio" type="radio" value = "yes" name="people" id="student"  checked="checked" ><label for="student">在校生</label>
+<input class="radio" type="radio" value = "yes"  name="people" id="nostudent" ><label for="nostudent">非在校生</label>
+
+    </div>
+<div class="first">
+
+    <label>学校</label>
+    <select id="city" >
+        <option value="深圳">深圳</option>
+        <option value="天津">天津</option>
+        <option value="上海">上海</option>
+        <option value="北京" selected="selected">北京</option>
+    </select>
+
+    <select id="school">
+        <option value="深圳大学">深圳大学</option>
+        <option value="天津大学">天津大学</option>
+        <option value="上海大学">上海大学</option>
+        <option value="北京大学" selected="selected">北京大学</option>
+    </select>
+</div>
+
+<div class="second">
+    <label for="employment">就业单位</label>
+    <input type="text" id="employment">
+</div>
+</form>
+
+<script type="text/javascript">
+    function onschool() {
+
+        var school = document.getElementsByClassName("first")[0];
+        console.log(school);
+        school.style.display = "block";
+        var noschool = document.getElementsByClassName("second")[0];
+        noschool.style.display = "none";
+        alert("在学校");
+    }
+    function outschool() {
+        alert("社会");
+        var school = document.getElementsByClassName("first")[0];
+        school.style.display = "none";
+        var noschool = document.getElementsByClassName("second")[0];
+        noschool.style.display = "block";
+    }
+
+    // 表格二级联动
+    function city() {
+        var cityValue = document.getElementById("city");
+        var value = cityValue.getElementsByTagName("option");
+        for (i=0;i<value.length;i++){
+            if(value[i].selected){
+                var schoolList = document.getElementById("school");
+                schoolList.innerHTML = "";
+                for (j=0;j<data[i].length;j++){
+                    var school = document.createElement("option");
+                    school.innerHTML = data[i][j];
+                    schoolList.appendChild(school);
+                }
+            }
+        }
+    }
+
+    function init() {
+        document.getElementById("city").addEventListener("change",city);
+        document.getElementById("student").addEventListener("click",onschool);
+        document.getElementById("nostudent").addEventListener("click",outschool);
+        data=[
+            ["北京大学","清华大学","中国人民大学","北京师范大学"],
+            ["复旦大学","上海交通大学","同济大学","华东师范大学"],
+            ["武汉大学","华中科技大学","华中农业大学","武汉理工大学"],
+            ["西安交通大学","西北大学","西北工业大学","陕西师范大学"]
+        ];
+    }
+
+    init()
+</script>
+</body>
+</html>
