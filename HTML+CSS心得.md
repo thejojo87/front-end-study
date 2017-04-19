@@ -903,3 +903,7 @@ http://www.w3cn.org/article/tips/2005/105.html
 
 http://www.imooc.com/article/12498?block_id=tuijian_wz
 
+## 51. 文字右边对齐？
+
+text-align right就可以了。
+

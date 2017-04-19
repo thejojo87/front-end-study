@@ -93,13 +93,14 @@
 
         console.log(length);
 
-        var patten = /^[a-zA-Z0-9\u4e00-\u9fa5]+$/ ;
+        var patten = /^[a-zA-Z0-9\u4e00-\u9fa5]+$/;
         var ulDisplay = document.getElementById("output1");
-        if (patten.test(value1)&&(length>=4||length<=16)) {
+        if (patten.test(value1) && (length >= 4 || length <= 16)) {
             ulDisplay.innerHTML = "符合要求";
-        }else{
+        } else {
             ulDisplay.innerHTML = "不符合要求，请重新输入";
         }
+    }
 
     // 检测长度
     function checkLength(value) {
@@ -121,6 +122,7 @@
             checkFirst();
         };
     }
+
     init()
 </script>
 </body>
