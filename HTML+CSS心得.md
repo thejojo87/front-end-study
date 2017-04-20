@@ -907,3 +907,15 @@ http://www.imooc.com/article/12498?block_id=tuijian_wz
 
 text-align right就可以了。
 
+## 52. 如何去掉table td之间的间隔？
+
+table{border-collapse:collapse;}
+
+## 53. 如何能让一个元素，不影响其他元素？
+
+position:absolute，那么就会把这个元素当透明。
+
+## 54. table里里面也有间隔，要取消掉。
+
+border-collapse: collapse;
+
