@@ -442,4 +442,66 @@ return re.test(s);
 z = z *1
 就可以了。
 
+## 27. 动画基础
+
+比如一个div，我如何旋转？还规定时间？
+
+        var bluenode = document.getElementsByClassName("sex")[0];
+        if (to == "top"){
+            bluenode.style.transform = "rotate(180deg)";
+            bluenode.style.transition = "1s";
+            to = "buttom";
+            
+            
+http://www.ruanyifeng.com/blog/2014/02/css_transition_and_animation.html
+
+http://www.cnblogs.com/Chen-XiaoJun/p/6193079.html
+
+## 28. 添加事件驱动怎么做？跨浏览器的事件处理程序
+
+```javascript
+var mask = document.getElementById("mask");
+
+
+// 创建eventUtil对象
+var eventUtil = {
+    // 添加
+    addHandler: function(elt, type, handler) {
+        if (elt.addEventListener) {
+            elt.addEventListener(type, handler, false);
+        } else if (elt.attachEvent) {
+            elt.attachEvent("on" + type, handler);
+        } else {
+            elt["on" + type] = handler;
+        }
+    }
+};
+
+function setNone() {
+    // alert("bbb");
+    win.style.display = "none";
+    mask.style.display = "none";
+}
+
+eventUtil.addHandler(mask, "click", setNone);
+```
+
+这么做的好处是什么？结合addEvent事件，可以很方便的使用。
+
+http://runfastlynda.com/2015/11/27/learn-professional-javascript-for-web-event/
+
+https://github.com/stone0090/javascript-lessons/tree/master/2.3-Event
+
+
+DOM2级事件定义了两个方法，用于处理指定和删除事件处理程序的操作：addEventListener()和removeEventListener()。所有DOM节点中都包含这两个方法，并且它们都接受三个参数：要处理的事件名，作为事件处理程序的函数和一个布尔值。最后这个布尔值参数是true，表示在捕获阶段调用事件处理程序；如果是false，表示在冒泡阶段调用事件处理程序(一般都是冒泡阶段来处理事件)：
+
+而DOM2级事件的好处是可以添加多个事件处理程序（DOM0级事件处理程序无法办到）：
+
+可以把addEvent 和remove写进公共的js文件里。
+
+## 29. 可维护性？
+
+http://www.jianshu.com/p/1a122b4449a1
+
+
 

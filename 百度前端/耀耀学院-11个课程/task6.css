@@ -1,0 +1,73 @@
+
+* {
+    font-family: '微软雅黑';
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+    height: 2000px;
+}
+
+#btnLogin {
+    border-radius: 20px;
+    width: 240px;
+    height: 48px;
+    /*outline: none;*/
+    margin-top: 50px;
+    /*display: none;*/
+}
+
+#divFloat {
+    border: 2px solid gray;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    /*height: 200px;*/
+    margin-left: -200px;
+    margin-top: -100px;
+}
+
+#divFloat span {
+    margin-left: 200px;
+    cursor: pointer;
+}
+#divFloat form {
+    text-align: right;
+}
+
+#divFloat form input {
+    width: 90px;
+    /*border-radius: 10px;*/
+    outline: none;
+    color: white;
+}
+
+#divFloat form input:first-child {
+    background-color: rgb(34, 185, 60);
+}
+
+#divFloat form input:last-child {
+    background-color: rgb(204, 85, 92);
+
+}
+
+#mask {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: green;
+    opacity: 0.3;
+}

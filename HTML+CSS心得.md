@@ -919,3 +919,9 @@ position:absolute，那么就会把这个元素当透明。
 
 border-collapse: collapse;
 
+## 54. css文件引用该怎么写？
+
+```css
+<link rel="stylesheet" type="text/css" href="main.css">
+```
+

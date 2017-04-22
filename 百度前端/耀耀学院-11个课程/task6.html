@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务六：UI组件之浮出层</title>
+    <link rel="stylesheet" type="text/css" href="task6.css">
+</head>
+<body>
+
+<!-- mask要在最前面，否则win里的按钮无法选择 -->
+<div id="mask"></div>
+<input type="button" value="登陆" id="btnLogin"></input>
+<div id="divFloat">
+    <h1 id="title">这是一个弹出层<span>×</span></h1>
+    <p>这是一个弹出层，点击遮罩或者按钮关闭
+        <br/>按住标题处可以拖动</p>
+    <form>
+        <input type="button" value="确定" id="btnSure"></input>
+        <input type="button" value="取消" id="btnCancel"></input>
+    </form>
+</div>
+
+<script type="text/javascript" src="task6.js">
+
+</script>
+</body>
+</html>
