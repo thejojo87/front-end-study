@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务七：UI组件之排序表格</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        table{
+            text-align: center;
+            border-collapse:collapse;
+            margin-top: 100px;
+            margin-left: 600px;
+        }
+
+        td {
+            border: 2px solid purple;
+            padding: 5px 10px;
+        }
+        th{
+            width: 150px;
+            height: 55px;
+            position: relative;
+            border: 1px solid #cccccc;
+
+        }
+        tr{
+            background-color: #333333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<table id="create">
+
+</table>
+
+
+<table border="1">
+    <tr>
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+    </tr>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="http://www.w3school.com.cn">操作</a></td>
+    </tr>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="http://www.w3school.com.cn">操作</a></td>
+    </tr>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="http://www.w3school.com.cn">操作</a></td>
+    </tr>
+    <tr>
+        <td>表内容单元格</td>
+        <td>表内容单元格</td>
+        <td><a href="http://www.w3school.com.cn">操作</a></td>
+    </tr>
+
+</table >
+<script type="text/javascript" src="../public.js">
+</script>
+<script type="text/javascript">
+//    (function(){
+//        alert("aaa");
+//    }());
+    function randomScore(n) {
+        var arr = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var num = Math.floor(Math.random() * 101);
+            sum += num;
+            arr.push(num);
+        }
+
+        arr.push(sum);
+        return arr;
+    }
+
+    var names = ['姓名', '语文', '数学', '英语', '总分'];
+
+    var scoreData = {
+        '大娃': randomScore(3),
+        '二娃': randomScore(3),
+        '三娃': randomScore(3),
+        '四娃': randomScore(3),
+        '五娃': randomScore(3),
+        '六娃': randomScore(3),
+        '七娃': randomScore(3),
+        '八娃': randomScore(3),
+        '九娃': randomScore(3),
+        '十娃': randomScore(3),
+        '十一娃': randomScore(3),
+        '十二娃': randomScore(3),
+        '十三娃': randomScore(3),
+        '十四娃': randomScore(3)
+    };
+
+    tab = document.getElementById('create');
+    addTh();
+    addTr();
+
+    function addTh() {
+        var thNode = document.createElement('tr');
+        thNode = addTd(thNode,names);
+
+        tdList = thNode.childNodes;
+        for(var i = 1;i<names.length;i++){
+            addArrowUp(tdList[i]);
+            addArrowDown(tdList[i]);
+        }
+        // 这里如果修改了tdList，那么thNode也会跟着改变么？
+        console.log(tdList[0]);
+
+        tab.appendChild(thNode);
+
+
+        function addArrow(divNode,flag){
+            divNode.style.width = "0px";
+            divNode.style.height = "0px";
+            divNode.style.borderLeft ="8px solid transparent";
+            divNode.style.borderRight ="8px solid transparent";
+            divNode.style.cursor ="pointer";
+            divNode.style.position = "absolute";
+            divNode.style.right = "30px";
+
+            divNode.addEventListener('click',function(eve){
+                var content = eve.target.parentNode.innerHTML.split('<')[0],
+                    listNum = config.thContent.indexOf(content),
+                    sortList = [],
+                    newList = [],
+                    trList = tab.childNodes;
+                //取出要排序的数据，保存在数组中
+                for( var i = 0;i<config.rowNum-1;i++){
+                    sortList.push(trList[i+1].childNodes[listNum].innerHTML);
+                }
+                //得到所要求经排序后的数组
+                //降序排序
+                newList = sortList.sort(sortNumber);
+                //需要升序则取反
+                if(!flag){
+                    newList = newList.reverse();
+                }
+                //获得当前列的数据分布情况
+                sortList = [];
+                for( i = 0;i<config.rowNum-1;i++){
+                    sortList.push(trList[i+1].childNodes[listNum].innerHTML);
+                }
+                //根据前后两个数组，重新排序列表项
+                changeOrder(newList,sortList);
+                function sortNumber(a,b){
+                    return b - a ;
+                }
+                //根据排序结果重新排列行序
+                function changeOrder(newList,oldList){
+                    var len = newList.length,
+                        pos_before,
+                        pos_now,
+                        trList = tab.childNodes,
+                        tempNode = document.createElement('tr'),
+                        temp;
+                    for(var k = 0;k<len;k++){
+                        //记录当前值在新表中位置，并寻找当前值在原表中的位置
+                        pos_now = k;
+                        pos_before = oldList.indexOf(newList[k]);
+                        //如果当前值在两个表中的位置不一样，则交换两个节点的内容
+                        if(pos_now !== pos_before){
+                            tempNode.innerHTML = trList[pos_before+1].innerHTML;
+                            trList[pos_before+1].innerHTML = trList[pos_now+1].innerHTML;
+                            trList[pos_now+1].innerHTML = tempNode.innerHTML;
+                            //更新表的内容
+                            temp = oldList[pos_before];
+                            oldList[pos_before] = oldList[pos_now];
+                            oldList[pos_now] = temp;
+                        }
+                    }
+                }
+            },false);
+            return divNode;
+        }
+
+        function addArrowUp(tdNode){
+            var divNode = document.createElement('div');
+            divNode = addArrow(divNode,false);
+            divNode.id = "up";
+            divNode.style.borderBottom ="10px solid #fff";
+            divNode.style.top = "14px";
+            tdNode.appendChild(divNode);
+        }
+
+        function addArrowDown(tdNode){
+            var divNode = document.createElement('div');
+            divNode = addArrow(divNode,true);
+            divNode.style.borderTop ="10px solid #fff";
+            divNode.style.top = "30px";
+            tdNode.appendChild(divNode);
+        }
+
+    }
+
+    //
+    function addTd(rowNode,contentList){
+        var thNode;
+        for (i = 0;i<contentList.length;i++){
+            thNode = document.createElement('th');
+            thNode.innerHTML = contentList[i];
+            rowNode.appendChild(thNode);
+        }
+        return rowNode;
+    }
+
+    // 成绩
+    function addTr2(rowNode,contentList,name) {
+        console.log(rowNode);
+        console.log(contentList);
+        var tdNode;
+        var trNode0 = document.createElement('td');
+        trNode0.innerHTML = name;
+        rowNode.appendChild(trNode0);
+        for (i = 0;i<contentList.length;i++){
+            tdNode = document.createElement('td');
+            tdNode.innerHTML = contentList[i];
+            rowNode.appendChild(tdNode);
+        }
+
+        return rowNode;
+    }
+
+    function addTr() {
+        var trNode;
+        for (var key in scoreData){
+            trNode = document.createElement('tr');
+            trNode = addTr2(trNode,scoreData[key],key);
+            tab.appendChild(trNode);
+        }
+
+    }
+
+
+//    function init() {
+//        console.log(scoreData);
+//    }
+
+//    init()
+</script>
+</body>
+</html>

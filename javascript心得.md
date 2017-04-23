@@ -504,4 +504,21 @@ DOM2级事件定义了两个方法，用于处理指定和删除事件处理程�
 http://www.jianshu.com/p/1a122b4449a1
 
 
+## 30. 引用？
 
+```html
+    <link type="text/css" rel="stylesheet" href="style/reset.css" />
+    <link type="text/css" rel="stylesheet" href="style/task_3_38_1.css" />
+
+    <script type="text/javascript" src="script/task_3_38_1.js"></script>
+```
+
+## 31. js字典如何遍历？
+
+```javascript
+        for (var key in scoreData){
+            trNode = document.createElement('tr');
+            trNode = addTd(trNode,scoreData[key]);
+            tab.appendChild(trNode);
+        }
+```
