@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义网页右键菜单</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin:0;
+        }
+        .righclick{
+            width: 100%;
+            height: 400px;
+            background-color: #676767;
+            text-align: center;
+            border: 1px solid #FF0000;
+        }
+        .righclick p{
+            margin-top: 100px;
+            font-size: 40px;
+        }
+        #customMenu {
+            position: absolute;
+            visibility: hidden;
+            background-color: silver;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div class="righclick" id="rightclick">
+    <p> right click to see the menu </p>
+    <p id="demo"> right  </p>
+</div>
+
+
+<ul id="customMenu">
+    <li><a href="" onclick="a()" id="a">Add</a></li>
+    <li><a href="" onclick="b()" id="b">Delete</a></li>
+    <li><a href="" onclick="c()" id="c">Share</a></li>
+</ul>
+
+
+<script type="text/javascript">
+
+    function a() {
+        alert("Add");
+    }
+
+    function b() {
+        alert("bdd");
+    }
+
+    function c() {
+        alert("cdd");
+    }
+    obj = document.getElementById("rightclick");
+    document.getElementById("rightclick").addEventListener("contextmenu", myFunction);
+    function myFunction() {
+        var x = document.getElementById("demo");
+        x.innerHTML = "你在 div 中点击了鼠标右键!";
+        x.style.fontSize = "30px";
+
+        menu = document.getElementById('customMenu');
+        event = event || window.event;
+        if (event.preventDefault){
+            event.preventDefault();
+        }else {
+            event.returnValue = false;
+        }
+        menu.style.left = event.clientX + 'px';
+        menu.style.top = event.clientY + 'px';
+        menu.style.visibility = 'visible';
+    }
+
+    obj.onclick = function(){
+        menu.style.visibility = 'hidden';
+    }
+
+</script>
+
+</body>
+</html>

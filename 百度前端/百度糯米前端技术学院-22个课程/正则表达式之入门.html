@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>正则表达式之入门</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin:0;
+        }
+        .righclick{
+            width: 100%;
+            height: 1000px;
+            background-color: #676767;
+            text-align: center;
+            border: 1px solid #FF0000;
+        }
+        .righclick p{
+            margin-top: 100px;
+            font-size: 40px;
+        }
+        input{
+            width: 400px;
+            height: 40px;
+            font-size: 30px;
+        }
+        button{
+            height: 30px;
+            width: 200px;
+            background-color: #FF0000;
+        }
+
+    </style>
+</head>
+<body>
+
+
+
+<div class="righclick" id="rightclick">
+    <p> 第一个例子测试手机号码正则表达式 </p>
+    <input id="test1input">
+    <button id="test1start" onclick="test1()">请输入手机号码</button>
+    <p id="test1result"> 手机号码测试  </p>
+
+    <p> 第二个例子检测相邻重复单词 </p>
+    <input id="test2input">
+    <button id="test2start" onclick="test2()">请输入几个单词</button>
+    <p id="test2result"> 相邻重复单词检测  </p>
+</div>
+
+<script type="text/javascript">
+    function test1() {
+        var value1 = document.getElementById("test1input").value;
+        var regu1 =/^1[34578]\d{9}$/;
+        var re = new RegExp(regu1);
+        document.getElementById("test1result").innerHTML = "手机号码检测结果为" + re.test(value1);
+    }
+
+    function test2() {
+        var value2 = document.getElementById("test2input").value;
+        var regu2 =/\b([A-Za-z]+)\s+\1\b/;
+        var re = new RegExp(regu2);
+        document.getElementById("test2result").innerHTML = "单词检测结果为" + re.test(value2);
+    }
+</script>
+
+</body>
+</html>

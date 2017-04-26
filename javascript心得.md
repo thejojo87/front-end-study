@@ -522,3 +522,72 @@ http://www.jianshu.com/p/1a122b4449a1
             tab.appendChild(trNode);
         }
 ```
+
+## 32. prototype是什么？
+
+就是属性共享。
+共享的属性就会跟其他一起共享。
+
+http://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html
+
+## 33. let是什么？
+
+“let是更完美的var”。
+let声明的变量拥有块级作用域。
+
+## 34. hasOwnProperty 在for循环有什么用处？
+
+http://m.jb51.net/article/37949.htm
+
+```javascript
+// 扩展 Object.prototype
+Object.prototype.bar = 1;
+var foo = {moo: 2};
+for(var i in foo) {
+console.log(i); // 输出 bar 和 moo
+} 
+
+// 仍旧针对上例的foo对象
+for (var i in foo) {
+if (foo.hasOwnProperty(i)) {
+console.log(i);
+}
+} 
+
+例子中因为使用了hasOwnProperty，最终输出moo；如果忽略 hasOwnProperty ，代码将会输出非预期结果，
+因为本地原型（如Object.prototype）已经被扩展了。 
+```
+
+
+## 35. 动态数据绑定是怎么实现的？
+
+https://github.com/youngwind/blog/issues/84
+
+## 36. 立即执行函数
+
+https://my.oschina.net/u/2331760/blog/468672
+
+http://www.ctolib.com/topics-74367.html
+
+( function(){…} )()和( function (){…} () )是两种立即执行函数
+
+## 37. oncontextmenu 事件-用户在div右键点击的时候怎么触发？
+
+http://www.runoob.com/jsref/event-oncontextmenu.html
+
+oncontextmenu 事件
+
+
+```javascript
+    document.getElementById("rightclick").addEventListener("contextmenu", myFunction);
+    function myFunction() {
+        var x = document.getElementById("demo");
+        x.innerHTML = "你在 div 中点击了鼠标右键!";
+        x.style.fontSize = "30px";
+    }
+```
+
+## 38. display none如何设置？在js里
+
+mymenu.style.cssText='display: none;';
+
